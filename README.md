@@ -1,4 +1,4 @@
-Most popular languages on GitHub as on February 2, 2019:
+Most popular languages on GitHub as of February 2, 2019:
 
 |#|language|repos count|
 |----|----|----|
