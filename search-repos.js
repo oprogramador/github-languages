@@ -1,11 +1,10 @@
 #!/usr/bin/env node
 
-/* eslint-disable no-await-in-loop, no-restricted-syntax */
-
 const request = require('superagent');
 const _ = require('lodash');
 const bluebird = require('bluebird');
 const { chunks } = require('chunk-array');
+const jsonToMarkdown = require('json-to-markdown');
 
 const token = process.env.GITHUB_TOKEN;
 
@@ -503,7 +502,8 @@ const languages = [
   'Zimpl',
 ];
 
-const retrieve = language => request(`https://api.github.com/search/repositories?q=language:${encodeURIComponent(language)}`)
+const retrieve = language => request('https://api.github.com/search/repositories')
+  .query({ q: `language:${encodeURIComponent(language)}` })
   .set('Authorization', `token ${token}`)
   .then(({ body }) => body.total_count);
 
@@ -529,7 +529,13 @@ const findRepos = async () => {
     results.push(result);
     console.warn(`${i} / ${groups.length} groups processed`);
   }
-  console.log(JSON.stringify(results));
+  const unifiedResults = Object.assign(...results);
+  console.log(JSON.stringify(unifiedResults));
+  const sortedAndFilterResults = _.sortBy(Object.entries(unifiedResults), ([, value]) => -value).slice(0, 100);
+  console.log(jsonToMarkdown(
+    sortedAndFilterResults.map(([k, v], i) => ({ '#': i + 1, language: k, 'repos count': v })),
+    ['#', 'language', 'repos count'],
+  ));
 };
 
 findRepos();

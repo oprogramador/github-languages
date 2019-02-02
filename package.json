@@ -4,6 +4,7 @@
   "description": "GitHub languages statistics",
   "main": "search-repos.js",
   "scripts": {
+    "lint": "./node_modules/.bin/eslint `git ls-files | grep '\\.js$' --color=never`",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,5 +23,10 @@
     "json-to-markdown": "^1.0.4",
     "lodash": "^4.17.11",
     "superagent": "^4.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.13.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0"
   }
 }
