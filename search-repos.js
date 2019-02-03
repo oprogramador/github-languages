@@ -503,7 +503,7 @@ const languages = [
 ];
 
 const retrieve = language => request('https://api.github.com/search/repositories')
-  .query({ q: `language:${encodeURIComponent(language)}` })
+  .query({ q: `language:${language}` })
   .set('Authorization', `token ${token}`)
   .then(({ body }) => body.total_count);
 
