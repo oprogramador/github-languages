@@ -1,16 +1,19 @@
 # Most popular languages on GitHub
 
 ## Table of Contents
-- [Most popular languages on GitHub as of February 18, 2019](#Most popular languages on GitHub as of February 18, 2019)
-- [Most popular languages on GitHub as of February 18, 2019, counting only repos with at least 10 stars](# Most popular languages on GitHub as of February 18, 2019, counting only repos with at least 10 stars)
-- [Most popular languages on GitHub as of February 18, 2019, counting only repos with at least 100 stars](# Most popular languages on GitHub as of February 18, 2019, counting only repos with at least 100 stars)
-- [Most popular languages on GitHub as of February 18, 2019, counting only repos with at least 1000 stars](# Most popular languages on GitHub as of February 18, 2019, counting only repos with at least 1000 stars)
-- [Most popular languages on GitHub as of February 18, 2019, counting only repos with at least 10000 stars](# Most popular languages on GitHub as of February 18, 2019, counting only repos with at least 10000 stars)
-- [Most popular languages on GitHub as of February 18, 2019, counting only repos with any commits pushed since January 1, 2018](#Most popular languages on GitHub as of February 18, 2019, counting only repos with any commits pushed since January 1, 2018)
-- [Most popular languages on GitHub as of February 18, 2019, counting only repos with at least 10 stars and any commits pushed since January 1, 2018](#Most popular languages on GitHub as of February 18, 2019, counting only repos with at least 10 stars and any commits pushed since January 1, 2018)
-- [Most popular languages on GitHub as of February 18, 2019, counting only repos with at least 100 stars and any commits pushed since January 1, 2018](#Most popular languages on GitHub as of February 18, 2019, counting only repos with at least 100 stars and any commits pushed since January 1, 2018)
-- [Most popular languages on GitHub as of February 18, 2019, counting only repos with at least 1000 stars and any commits pushed since January 1, 2018](#Most popular languages on GitHub as of February 18, 2019, counting only repos with at least 1000 stars and any commits pushed since January 1, 2018)
-- [Most popular languages on GitHub as of February 18, 2019, counting only repos with at least 10000 stars and any commits pushed since January 1, 2018](#Most popular languages on GitHub as of February 18, 2019, counting only repos with at least 10000 stars and any commits pushed since January 1, 2018)
+1. [Most popular languages on GitHub as of February 18, 2019](#Most popular languages on GitHub as of February 18, 2019)
+1. [Most popular languages on GitHub as of February 18, 2019, counting only repos with at least 10 stars](# Most popular languages on GitHub as of February 18, 2019, counting only repos with at least 10 stars)
+1. [Most popular languages on GitHub as of February 18, 2019, counting only repos with at least 100 stars](# Most popular languages on GitHub as of February 18, 2019, counting only repos with at least 100 stars)
+1. [Most popular languages on GitHub as of February 18, 2019, counting only repos with at least 1000 stars](# Most popular languages on GitHub as of February 18, 2019, counting only repos with at least 1000 stars)
+1. [Most popular languages on GitHub as of February 18, 2019, counting only repos with at least 10000 stars](# Most popular languages on GitHub as of February 18, 2019, counting only repos with at least 10000 stars)
+1. [Most popular languages on GitHub as of February 18, 2019, counting only repos with any commits pushed since January 1, 2018](#Most popular languages on GitHub as of February 18, 2019, counting only repos with any commits pushed since January 1, 2018)
+1. [Most popular languages on GitHub as of February 18, 2019, counting only repos with at least 10 stars and any commits pushed since January 1, 2018](#Most popular languages on GitHub as of February 18, 2019, counting only repos with at least 10 stars and any commits pushed since January 1, 2018)
+1. [Most popular languages on GitHub as of February 18, 2019, counting only repos with at least 100 stars and any commits pushed since January 1, 2018](#Most popular languages on GitHub as of February 18, 2019, counting only repos with at least 100 stars and any commits pushed since January 1, 2018)
+1. [Most popular languages on GitHub as of February 18, 2019, counting only repos with at least 1000 stars and any commits pushed since January 1, 2018](#Most popular languages on GitHub as of February 18, 2019, counting only repos with at least 1000 stars and any commits pushed since January 1, 2018)
+1. [Most popular languages on GitHub as of February 18, 2019, counting only repos with at least 10000 stars and any commits pushed since January 1, 2018](#Most popular languages on GitHub as of February 18, 2019, counting only repos with at least 10000 stars and any commits pushed since January 1, 2018)
+
+
+## Most popular languages on GitHub as of February 18, 2019
 
 |#|language|repos count|
 |----|----|----|
