@@ -14,6 +14,7 @@
 
 
 ## Most popular languages on GitHub as of February 18, 2019
+<a name="all" />
 
 |#|language|repos count|
 |----|----|----|
@@ -120,6 +121,7 @@
 
 
 ## Most popular languages on GitHub as of February 18, 2019, counting only repos with at least 10 stars
+<a name="10-stars" />
 
 |#|language|repos count|
 |----|----|----|
@@ -226,6 +228,7 @@
 
 
 ## Most popular languages on GitHub as of February 18, 2019, counting only repos with at least 100 stars
+<a name="100-stars" />
 
 |#|language|repos count|
 |----|----|----|
@@ -332,6 +335,7 @@
 
 
 ## Most popular languages on GitHub as of February 18, 2019, counting only repos with at least 1000 stars
+<a name="1000-stars" />
 
 |#|language|repos count|
 |----|----|----|
@@ -438,6 +442,7 @@
 
 
 ## Most popular languages on GitHub as of February 18, 2019, counting only repos with at least 10000 stars
+<a name="10000-stars" />
 
 |#|language|repos count|
 |----|----|----|
@@ -483,6 +488,7 @@
 
 
 ## Most popular languages on GitHub as of February 18, 2019, counting only repos with any commits pushed since January 1, 2018
+<a name="all-since-2018" />
 
 |#|language|repos count|
 |----|----|----|
@@ -589,6 +595,7 @@
 
 
 ## Most popular languages on GitHub as of February 18, 2019, counting only repos with at least 10 stars and any commits pushed since January 1, 2018
+<a name="10-stars-since-2018" />
 
 |#|language|repos count|
 |----|----|----|
@@ -695,6 +702,7 @@
 
 
 ## Most popular languages on GitHub as of February 18, 2019, counting only repos with at least 100 stars and any commits pushed since January 1, 2018
+<a name="100-stars-since-2018" />
 
 |#|language|repos count|
 |----|----|----|
@@ -801,6 +809,7 @@
 
 
 ## Most popular languages on GitHub as of February 18, 2019, counting only repos with at least 1000 stars and any commits pushed since January 1, 2018
+<a name="1000-stars-since-2018" />
 
 |#|language|repos count|
 |----|----|----|
@@ -907,6 +916,7 @@
 
 
 ## Most popular languages on GitHub as of February 18, 2019, counting only repos with at least 10000 stars and any commits pushed since January 1, 2018
+<a name="10000-stars-since-2018" />
 
 |#|language|repos count|
 |----|----|----|
