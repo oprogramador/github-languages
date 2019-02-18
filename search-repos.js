@@ -5,8 +5,16 @@ const _ = require('lodash');
 const bluebird = require('bluebird');
 const { chunks } = require('chunk-array');
 const jsonToMarkdown = require('json-to-markdown');
+const commander = require('commander');
+const packageInfo = require('./package');
 
 const token = process.env.GITHUB_TOKEN;
+
+commander
+  .version(packageInfo.version)
+  .option('-s, --stars [type]', 'Minimum stars number')
+  .option('-p, --pushed [type]', 'Maximum date of the last pushed commit')
+  .parse(process.argv);
 
 const languages = [
   'ActionScript',
@@ -503,7 +511,7 @@ const languages = [
 ];
 
 const retrieve = language => request('https://api.github.com/search/repositories')
-  .query({ q: `language:${language}` })
+  .query({ q: `stars:>=${commander.stars || 0} pushed:>${commander.pushed || '1970-01-01'} language:${language}` })
   .set('Authorization', `token ${token}`)
   .then(({ body }) => body.total_count);
 
