@@ -513,7 +513,7 @@ const languages = [
 const retrieve = language => request('https://api.github.com/search/repositories')
   .query({
     // eslint-disable-next-line max-len
-    q: `stars:>=${commander.stars || 0} pushed:>${commander.pushed || '1970-01-01'} language:${JSON.stringify(language)}`,
+    q: `stars:>=${commander.stars || 0} pushed:>=${commander.pushed || '1970-01-01'} language:${JSON.stringify(language)}`,
   })
   .set('Authorization', `token ${token}`)
   .then(({ body }) => body.total_count);
