@@ -72,7 +72,7 @@ const resultsToMarkdown = data => jsonToMarkdown(
   ['language', 'coefficient', ...repoLabels],
 );
 
-console.log('\n\n## most growing languages in 2018-2019\n');
+console.log('\n\n## Most growing languages in 2018-2019\n');
 console.log(resultsToMarkdown(mostGrowing));
-console.log('\n\n## most failing languages in 2018-2019\n');
+console.log('\n\n## Most failing languages in 2018-2019\n');
 console.log(resultsToMarkdown(mostFailing));
