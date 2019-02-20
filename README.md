@@ -12,6 +12,8 @@
 1. [Most popular languages on GitHub as of February 18, 2019, counting only repos with at least 1000 stars and any commits pushed since January 1, 2018](#1000-stars-since-2018)
 1. [Most popular languages on GitHub as of February 18, 2019, counting only repos with at least 10000 stars and any commits pushed since January 1, 2018](#10000-stars-since-2018)
 1. [Most starred GitHub repositories by language as of February 19, 2019](#top-repos-by-language)
+1. [Most growing languages in 2018-2019](#most-growing)
+1. [Most failing languages in 2018-2019](#most-failing)
 
 ## Most popular languages on GitHub as of February 18, 2019
 <a name="all" />
@@ -992,7 +994,8 @@
 |Vue|[ElemeFE/element](https://github.com/ElemeFE/element) (35110) A Vue.js 2.0 UI Toolkit for Web|[PanJiaChen/vue-element-admin](https://github.com/PanJiaChen/vue-element-admin) (27435) :tada: A magical vue admin                                                                http://panjiachen.github.io/vue-element-admin|[bailicangdu/vue2-elm](https://github.com/bailicangdu/vue2-elm) (25183) 基于 vue2 + vuex 构建一个具有 45 个页面的大型单页面应用|[iview/iview](https://github.com/iview/iview) (19810) A high quality UI Toolkit built on Vue.js 2.0|[airyland/vux](https://github.com/airyland/vux) (15107) Mobile UI Components based on Vue & WeUI|
 
 
-## most growing languages in 2018-2019
+## Most growing languages in 2018-2019
+<a name="most-growing" />
 
 |language|coefficient|all repos|10+ stars|100+ stars|1000+ stars|10000+ stars|
 |----|----|----|----|----|----|----|
@@ -1039,7 +1042,8 @@
 
 
 
-## most failing languages in 2018-2019
+## Most failing languages in 2018-2019
+<a name="most-failing" />
 
 |language|coefficient|all repos|10+ stars|100+ stars|1000+ stars|10000+ stars|
 |----|----|----|----|----|----|----|
