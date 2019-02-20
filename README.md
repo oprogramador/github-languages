@@ -992,7 +992,7 @@
 |Vue|[ElemeFE/element](https://github.com/ElemeFE/element) (35110) A Vue.js 2.0 UI Toolkit for Web|[PanJiaChen/vue-element-admin](https://github.com/PanJiaChen/vue-element-admin) (27435) :tada: A magical vue admin                                                                http://panjiachen.github.io/vue-element-admin|[bailicangdu/vue2-elm](https://github.com/bailicangdu/vue2-elm) (25183) 基于 vue2 + vuex 构建一个具有 45 个页面的大型单页面应用|[iview/iview](https://github.com/iview/iview) (19810) A high quality UI Toolkit built on Vue.js 2.0|[airyland/vux](https://github.com/airyland/vux) (15107) Mobile UI Components based on Vue & WeUI|
 
 
-## most growing language in 2018-2019
+## most growing languages in 2018-2019
 
 |language|coefficient|all repos|10+ stars|100+ stars|1000+ stars|10000+ stars|
 |----|----|----|----|----|----|----|
@@ -1039,7 +1039,7 @@
 
 
 
-## most failing language in 2018-2019
+## most failing languages in 2018-2019
 
 |language|coefficient|all repos|10+ stars|100+ stars|1000+ stars|10000+ stars|
 |----|----|----|----|----|----|----|
