@@ -22,7 +22,7 @@
     "chunk-array": "^1.0.2",
     "commander": "^2.19.0",
     "json-to-markdown": "^1.0.4",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.13",
     "superagent": "^4.1.0"
   },
   "devDependencies": {
