@@ -20,8 +20,13 @@ commander
   .parse(process.argv);
 
 const filesList = commander.files.split(',');
+// eslint-disable-next-line global-require, import/no-dynamic-require
 const inputData = filesList.map(filename => require(`./${filename}`));
-const languages = _.uniq(_.flatten(inputData.map(data => _.sortBy(Object.entries(data), ([key, value]) => -value).slice(0, languagesTopNumber).map(([key, value]) => key))));
+const languages = _.uniq(_.flatten(
+  inputData.map(data => _.sortBy(Object.entries(data), ([, value]) => -value)
+    .slice(0, languagesTopNumber)
+    .map(([key]) => key)),
+));
 
 const retrieve = language => request('https://api.github.com/search/repositories')
   .query({
@@ -65,7 +70,7 @@ const findRepos = async () => {
     console.warn(`${i} / ${groups.length} groups processed`);
   }
   const unifiedResults = Object.assign(...results);
-  fs.writeFileSync(`repos-by-language.json`, JSON.stringify(unifiedResults));
+  fs.writeFileSync('repos-by-language.json', JSON.stringify(unifiedResults));
   const hashKeys = _.times(reposPerLanguageNumber, i => `#${i + 1}`);
   console.log(jsonToMarkdown(
     Object.entries(unifiedResults)

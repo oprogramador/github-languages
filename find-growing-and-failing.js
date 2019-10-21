@@ -12,6 +12,7 @@ commander
   .parse(process.argv);
 
 const filesList = commander.files.split(',');
+// eslint-disable-next-line global-require, import/no-dynamic-require
 const inputData = filesList.map(filename => require(`./${filename}`));
 
 const transformToRank = object => _.zipObject(
@@ -19,7 +20,10 @@ const transformToRank = object => _.zipObject(
   _.range(1, _.size(object)),
 );
 
-const groups = _.chunk(inputData, 2).map(([allData, newData]) => ({ allData, newData }));
+const groups = _.chunk(inputData, 2).map(([allData, newData]) => ({
+  allData: transformToRank(allData),
+  newData: transformToRank(newData),
+}));
 
 const getCoefficient = language => ({
   language,
