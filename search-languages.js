@@ -6,6 +6,7 @@ const bluebird = require('bluebird');
 const { chunks } = require('chunk-array');
 const jsonToMarkdown = require('json-to-markdown');
 const commander = require('commander');
+const fs = require('fs');
 const packageInfo = require('./package');
 const languages = require('./languages');
 
@@ -13,15 +14,15 @@ const token = process.env.GITHUB_TOKEN;
 
 commander
   .version(packageInfo.version)
-  .option('-s, --stars [type]', 'Minimum stars number')
-  .option('-p, --pushed [type]', 'Maximum date of the last pushed commit')
+  .option('-s, --stars [type]', 'Minimum stars number', 0)
+  .option('-p, --pushed [type]', 'Maximum date of the last pushed commit', '1970-01-01')
   .parse(process.argv);
 
 
 const retrieve = language => request('https://api.github.com/search/repositories')
   .query({
     // eslint-disable-next-line max-len
-    q: `stars:>=${commander.stars || 0} pushed:>=${commander.pushed || '1970-01-01'} language:${JSON.stringify(language)}`,
+    q: `stars:>=${commander.stars} pushed:>=${commander.pushed} language:${JSON.stringify(language)}`,
   })
   .set('Authorization', `token ${token}`)
   .then(({ body }) => body.total_count);
@@ -44,12 +45,12 @@ const findRepos = async () => {
   const results = [];
   for (const [i, group] of Object.entries(groups)) {
     const result = await retrieveGroup(group);
-    console.log(JSON.stringify(result));
+    console.warn(JSON.stringify({ stars: commander.stars, pushed: commander.pushed, ...result }));
     results.push(result);
     console.warn(`${i} / ${groups.length} groups processed`);
   }
   const unifiedResults = Object.assign(...results);
-  console.log(JSON.stringify(unifiedResults));
+  fs.writeFileSync(`${commander.stars}-pushed-after-${commander.pushed}.json`, JSON.stringify(unifiedResults));
   const sortedAndFilterResults = _.sortBy(Object.entries(unifiedResults), ([, value]) => -value).slice(0, 100);
   console.log(jsonToMarkdown(
     sortedAndFilterResults.map(([k, v], i) => ({ '#': i + 1, language: k, 'repos count': v })),

@@ -4,46 +4,24 @@ const request = require('superagent');
 const _ = require('lodash');
 const bluebird = require('bluebird');
 const { chunks } = require('chunk-array');
+const fs = require('fs');
 const jsonToMarkdown = require('json-to-markdown');
 const commander = require('commander');
 const packageInfo = require('./package');
 
 const token = process.env.GITHUB_TOKEN;
 
-const languages = [
-  'JavaScript',
-  'Java',
-  'HTML',
-  'Python',
-  'PHP',
-  'CSS',
-  'Ruby',
-  'C#',
-  'C++',
-  'C',
-  'Shell',
-  'TypeScript',
-  'Jupyter Notebook',
-  'Objective-C',
-  'Swift',
-  'Go',
-  'R',
-  'MATLAB',
-  'Scala',
-  'Perl',
-  'Rust',
-  'Clojure',
-  'Kotlin',
-  'Vim script',
-  'Vue',
-];
-
 const reposPerLanguageNumber = 5;
+const languagesTopNumber = 20;
 
 commander
   .version(packageInfo.version)
-  .option('-l, --language [type]', 'Language')
+  .option('-f, --files [type]', 'File names to get most popular languages, separated with a coma (,)')
   .parse(process.argv);
+
+const filesList = commander.files.split(',');
+const inputData = filesList.map(filename => require(`./${filename}`));
+const languages = _.uniq(_.flatten(inputData.map(data => _.sortBy(Object.entries(data), ([key, value]) => -value).slice(0, languagesTopNumber).map(([key, value]) => key))));
 
 const retrieve = language => request('https://api.github.com/search/repositories')
   .query({
@@ -87,7 +65,7 @@ const findRepos = async () => {
     console.warn(`${i} / ${groups.length} groups processed`);
   }
   const unifiedResults = Object.assign(...results);
-  console.log(JSON.stringify(unifiedResults));
+  fs.writeFileSync(`repos-by-language.json`, JSON.stringify(unifiedResults));
   const hashKeys = _.times(reposPerLanguageNumber, i => `#${i + 1}`);
   console.log(jsonToMarkdown(
     Object.entries(unifiedResults)
