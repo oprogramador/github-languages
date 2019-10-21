@@ -485,64 +485,6 @@
 |40|QML|1|
 |41|Rascal|1|
 |42|Standard ML|1|
-|43|ActionScript|0|
-|44|MATLAB|0|
-|45|R|0|
-|46|1C Enterprise|0|
-|47|ABAP|0|
-|48|ABNF|0|
-|49|Ada|0|
-|50|Adobe Font Metrics|0|
-|51|Agda|0|
-|52|AGS Script|0|
-|53|Alloy|0|
-|54|Alpine Abuild|0|
-|55|AMPL|0|
-|56|AngelScript|0|
-|57|Ant Build System|0|
-|58|ANTLR|0|
-|59|ApacheConf|0|
-|60|Apex|0|
-|61|API Blueprint|0|
-|62|APL|0|
-|63|Apollo Guidance Computer|0|
-|64|AppleScript|0|
-|65|Arc|0|
-|66|AsciiDoc|0|
-|67|ASN.1|0|
-|68|ASP|0|
-|69|AspectJ|0|
-|70|ATS|0|
-|71|Augeas|0|
-|72|AutoHotkey|0|
-|73|AutoIt|0|
-|74|Awk|0|
-|75|Ballerina|0|
-|76|Befunge|0|
-|77|Bison|0|
-|78|BitBake|0|
-|79|Blade|0|
-|80|BlitzBasic|0|
-|81|BlitzMax|0|
-|82|Bluespec|0|
-|83|Boo|0|
-|84|Brainfuck|0|
-|85|Brightscript|0|
-|86|Bro|0|
-|87|C-ObjDump|0|
-|88|C2hs Haskell|0|
-|89|Cap'n Proto|0|
-|90|CartoCSS|0|
-|91|Ceylon|0|
-|92|Chapel|0|
-|93|Charity|0|
-|94|ChucK|0|
-|95|Cirru|0|
-|96|Clarion|0|
-|97|Clean|0|
-|98|Click|0|
-|99|CLIPS|0|
-|100|Closure Templates|0|
 
 ## Most popular languages on GitHub as of October 21, 2019, counting only repos with any commits pushed since October 21, 2018
 <a name="all-active" />
@@ -1014,65 +956,6 @@
 |39|Markdown|1|
 |40|QML|1|
 |41|Standard ML|1|
-|42|ActionScript|0|
-|43|MATLAB|0|
-|44|R|0|
-|45|1C Enterprise|0|
-|46|ABAP|0|
-|47|ABNF|0|
-|48|Ada|0|
-|49|Adobe Font Metrics|0|
-|50|Agda|0|
-|51|AGS Script|0|
-|52|Alloy|0|
-|53|Alpine Abuild|0|
-|54|AMPL|0|
-|55|AngelScript|0|
-|56|Ant Build System|0|
-|57|ANTLR|0|
-|58|ApacheConf|0|
-|59|Apex|0|
-|60|API Blueprint|0|
-|61|APL|0|
-|62|Apollo Guidance Computer|0|
-|63|AppleScript|0|
-|64|Arc|0|
-|65|AsciiDoc|0|
-|66|ASN.1|0|
-|67|ASP|0|
-|68|AspectJ|0|
-|69|ATS|0|
-|70|Augeas|0|
-|71|AutoHotkey|0|
-|72|AutoIt|0|
-|73|Awk|0|
-|74|Ballerina|0|
-|75|Befunge|0|
-|76|Bison|0|
-|77|BitBake|0|
-|78|Blade|0|
-|79|BlitzBasic|0|
-|80|BlitzMax|0|
-|81|Bluespec|0|
-|82|Boo|0|
-|83|Brainfuck|0|
-|84|Brightscript|0|
-|85|Bro|0|
-|86|C-ObjDump|0|
-|87|C2hs Haskell|0|
-|88|Cap'n Proto|0|
-|89|CartoCSS|0|
-|90|Ceylon|0|
-|91|Chapel|0|
-|92|Charity|0|
-|93|ChucK|0|
-|94|Cirru|0|
-|95|Clarion|0|
-|96|Clean|0|
-|97|Click|0|
-|98|CLIPS|0|
-|99|Closure Templates|0|
-|100|Cloud Firestore Security Rules|0|
 
 ## Most starred GitHub repositories by language as of October 21, 2019
 <a name="top-repos-by-language" />

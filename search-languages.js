@@ -51,9 +51,14 @@ const findRepos = async () => {
   }
   const unifiedResults = Object.assign(...results);
   fs.writeFileSync(`${commander.stars}-pushed-after-${commander.pushed}.json`, JSON.stringify(unifiedResults));
-  const sortedAndFilterResults = _.sortBy(Object.entries(unifiedResults), ([, value]) => -value).slice(0, 100);
+  const sortedAndFilteredResults = _.sortBy(
+    Object.entries(unifiedResults)
+      .filter(([, value]) => value > 0),
+    ([, value]) => -value,
+  )
+    .slice(0, 100);
   console.log(jsonToMarkdown(
-    sortedAndFilterResults.map(([k, v], i) => ({ '#': i + 1, language: k, 'repos count': v })),
+    sortedAndFilteredResults.map(([k, v], i) => ({ '#': i + 1, language: k, 'repos count': v })),
     ['#', 'language', 'repos count'],
   ));
 };
