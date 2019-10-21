@@ -16,6 +16,7 @@
 1. [Most failing languages in the last 12 months](#most-failing)
 ## Most popular languages on GitHub as of October 21, 2019
 <a name="all" />
+
 |#|language|repos count|
 |----|----|----|
 |1|JavaScript|8244417|
@@ -121,6 +122,7 @@
 
 ## Most popular languages on GitHub as of October 21, 2019, counting only repos with at least 10 stars
 <a name="10-stars" />
+
 |#|language|repos count|
 |----|----|----|
 |1|JavaScript|179097|
@@ -226,6 +228,7 @@
 
 ## Most popular languages on GitHub as of October 21, 2019, counting only repos with at least 100 stars
 <a name="100-stars" />
+
 |#|language|repos count|
 |----|----|----|
 |1|JavaScript|33189|
@@ -331,6 +334,7 @@
 
 ## Most popular languages on GitHub as of October 21, 2019, counting only repos with at least 1000 stars
 <a name="1000-stars" />
+
 |#|language|repos count|
 |----|----|----|
 |1|JavaScript|4830|
@@ -436,6 +440,7 @@
 
 ## Most popular languages on GitHub as of October 21, 2019, counting only repos with at least 10000 stars
 <a name="10000-stars" />
+
 |#|language|repos count|
 |----|----|----|
 |1|JavaScript|397|
@@ -541,6 +546,7 @@
 
 ## Most popular languages on GitHub as of October 21, 2019, counting only repos with any commits pushed since October 21, 2018
 <a name="all-active" />
+
 |#|language|repos count|
 |----|----|----|
 |1|JavaScript|3009308|
@@ -646,6 +652,7 @@
 
 ## Most popular languages on GitHub as of October 21, 2019, counting only repos with at least 10 stars and any commits pushed since October 21, 2018
 <a name="10-stars-active" />
+
 |#|language|repos count|
 |----|----|----|
 |1|JavaScript|69220|
@@ -751,6 +758,7 @@
 
 ## Most popular languages on GitHub as of October 21, 2019, counting only repos with at least 100 stars and any commits pushed since October 21, 2018
 <a name="100-stars-active" />
+
 |#|language|repos count|
 |----|----|----|
 |1|JavaScript|19265|
@@ -856,6 +864,7 @@
 
 ## Most popular languages on GitHub as of October 21, 2019, counting only repos with at least 1000 stars and any commits pushed since October 21, 2018
 <a name="1000-stars-active" />
+
 |#|language|repos count|
 |----|----|----|
 |1|JavaScript|3887|
@@ -961,6 +970,7 @@
 
 ## Most popular languages on GitHub as of October 21, 2019, counting only repos with at least 10000 stars and any commits pushed since October 21, 2018
 <a name="10000-stars-active" />
+
 |#|language|repos count|
 |----|----|----|
 |1|JavaScript|385|
@@ -1066,6 +1076,7 @@
 
 ## Most starred GitHub repositories by language as of October 21, 2019
 <a name="top-repos-by-language" />
+
 {"JavaScript":[{"html_url":"https://github.com/freeCodeCamp/freeCodeCamp","stargazers_count":305710,"full_name":"freeCodeCamp/freeCodeCamp","description":"The https://www.freeCodeCamp.org open source codebase and curriculum. Learn to code for free together with millions of people."},{"html_url":"https://github.com/vuejs/vue","stargazers_count":150651,"full_name":"vuejs/vue","description":"🖖 Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web."},{"html_url":"https://github.com/facebook/react","stargazers_count":138098,"full_name":"facebook/react","description":"A declarative, efficient, and flexible JavaScript library for building user interfaces."},{"html_url":"https://github.com/twbs/bootstrap","stargazers_count":136412,"full_name":"twbs/bootstrap","description":"The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web."},{"html_url":"https://github.com/airbnb/javascript","stargazers_count":89833,"full_name":"airbnb/javascript","description":"JavaScript Style Guide"}],"Java":[{"html_url":"https://github.com/CyC2018/CS-Notes","stargazers_count":80938,"full_name":"CyC2018/CS-Notes","description":":books: Tech Interview Guide 技术面试必备基础知识、Leetcode 题解、Java、C++、Python、后端面试、操作系统、计算机网络、系统设计"},{"html_url":"https://github.com/Snailclimb/JavaGuide","stargazers_count":58620,"full_name":"Snailclimb/JavaGuide","description":"【Java学习+面试指南】 一份涵盖大部分Java程序员所需要掌握的核心知识。"},{"html_url":"https://github.com/iluwatar/java-design-patterns","stargazers_count":52061,"full_name":"iluwatar/java-design-patterns","description":"Design patterns implemented in Java"},{"html_url":"https://github.com/elastic/elasticsearch","stargazers_count":44898,"full_name":"elastic/elasticsearch","description":"Open Source, Distributed, RESTful Search Engine"},{"html_url":"https://github.com/MisterBooo/LeetCodeAnimation","stargazers_count":42863,"full_name":"MisterBooo/LeetCodeAnimation","description":"Demonstrate all the questions on LeetCode in the form of animation.（用动画的形式呈现解LeetCode题目的思路）"}],"HTML":[{"html_url":"https://github.com/h5bp/Front-end-Developer-Interview-Questions","stargazers_count":42518,"full_name":"h5bp/Front-end-Developer-Interview-Questions","description":"A list of helpful front-end related questions you can use to interview potential candidates, test yourself or completely ignore."},{"html_url":"https://github.com/google/material-design-lite","stargazers_count":31450,"full_name":"google/material-design-lite","description":"Material Design Components in HTML/CSS/JS"},{"html_url":"https://github.com/ColorlibHQ/AdminLTE","stargazers_count":31392,"full_name":"ColorlibHQ/AdminLTE","description":"AdminLTE - Free Premium Admin control Panel Theme Based On Bootstrap 3.x"},{"html_url":"https://github.com/foundation/foundation-sites","stargazers_count":28314,"full_name":"foundation/foundation-sites","description":"The most advanced responsive front-end framework in the world. Quickly create prototypes and production code for sites that work on any kind of device."},{"html_url":"https://github.com/ariya/phantomjs","stargazers_count":27090,"full_name":"ariya/phantomjs","description":"Scriptable Headless Browser"}],"Python":[{"html_url":"https://github.com/donnemartin/system-design-primer","stargazers_count":75163,"full_name":"donnemartin/system-design-primer","description":"Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards."},{"html_url":"https://github.com/vinta/awesome-python","stargazers_count":74452,"full_name":"vinta/awesome-python","description":"A curated list of awesome Python frameworks, libraries, software and resources"},{"html_url":"https://github.com/public-apis/public-apis","stargazers_count":63910,"full_name":"public-apis/public-apis","description":"A collective list of free APIs for use in software and web development."},{"html_url":"https://github.com/tensorflow/models","stargazers_count":58569,"full_name":"tensorflow/models","description":"Models and examples built with TensorFlow"},{"html_url":"https://github.com/ytdl-org/youtube-dl","stargazers_count":56816,"full_name":"ytdl-org/youtube-dl","description":"Command-line program to download videos from YouTube.com and other video sites"}],"PHP":[{"html_url":"https://github.com/laravel/laravel","stargazers_count":55714,"full_name":"laravel/laravel","description":"A PHP framework for web artisans"},{"html_url":"https://github.com/blueimp/jQuery-File-Upload","stargazers_count":30324,"full_name":"blueimp/jQuery-File-Upload","description":"File Upload widget with multiple file selection, drag&drop support, progress bar, validation and preview images, audio and video for jQuery. Supports cross-domain, chunked and resumable file uploads. Works with any server-side platform (Google App Engine, PHP, Python, Ruby on Rails, Java, etc.) that supports standard HTML form file uploads."},{"html_url":"https://github.com/fzaninotto/Faker","stargazers_count":22204,"full_name":"fzaninotto/Faker","description":"Faker is a PHP library that generates fake data for you"},{"html_url":"https://github.com/symfony/symfony","stargazers_count":21899,"full_name":"symfony/symfony","description":"The Symfony PHP framework"},{"html_url":"https://github.com/composer/composer","stargazers_count":21264,"full_name":"composer/composer","description":"Dependency Manager for PHP"}]}
 {"CSS":[{"html_url":"https://github.com/daneden/animate.css","stargazers_count":62625,"full_name":"daneden/animate.css","description":"🍿 A cross-browser library of CSS animations. As easy to use as an easy thing."},{"html_url":"https://github.com/google/material-design-icons","stargazers_count":39071,"full_name":"google/material-design-icons","description":"Material Design icons by Google"},{"html_url":"https://github.com/jgthms/bulma","stargazers_count":37100,"full_name":"jgthms/bulma","description":"Modern CSS framework based on Flexbox"},{"html_url":"https://github.com/necolas/normalize.css","stargazers_count":36602,"full_name":"necolas/normalize.css","description":"A modern alternative to CSS resets"},{"html_url":"https://github.com/FreeCodeCampChina/freecodecamp.cn","stargazers_count":36493,"full_name":"FreeCodeCampChina/freecodecamp.cn","description":"The FreeCodeCamp.cn(FCC China) open source codebase and curriculum. Learn to code and help nonprofits."}],"C#":[{"html_url":"https://github.com/shadowsocks/shadowsocks-windows","stargazers_count":43869,"full_name":"shadowsocks/shadowsocks-windows","description":"If you want to keep a secret, you must also hide it from yourself."},{"html_url":"https://github.com/CodeHubApp/CodeHub","stargazers_count":21795,"full_name":"CodeHubApp/CodeHub","description":"CodeHub is an iOS application written using Xamarin"},{"html_url":"https://github.com/dotnet/corefx","stargazers_count":17611,"full_name":"dotnet/corefx","description":"CoreFX is the foundational class libraries for .NET Core. It includes types for collections, file systems, console, JSON, XML, async and many others."},{"html_url":"https://github.com/PowerShell/PowerShell","stargazers_count":16139,"full_name":"PowerShell/PowerShell","description":"PowerShell for every system!"},{"html_url":"https://github.com/Wox-launcher/Wox","stargazers_count":14712,"full_name":"Wox-launcher/Wox","description":"Launcher for Windows, an alternative to Alfred and Launchy."}],"Ruby":[{"html_url":"https://github.com/rails/rails","stargazers_count":44358,"full_name":"rails/rails","description":"Ruby on Rails"},{"html_url":"https://github.com/jekyll/jekyll","stargazers_count":38928,"full_name":"jekyll/jekyll","description":":globe_with_meridians: Jekyll is a blog-aware static site generator in Ruby"},{"html_url":"https://github.com/discourse/discourse","stargazers_count":29250,"full_name":"discourse/discourse","description":"A platform for community discussion. Free, open, simple."},{"html_url":"https://github.com/fastlane/fastlane","stargazers_count":27161,"full_name":"fastlane/fastlane","description":"🚀 The easiest way to automate building and releasing your iOS and Android apps"},{"html_url":"https://github.com/bayandin/awesome-awesomeness","stargazers_count":25091,"full_name":"bayandin/awesome-awesomeness","description":"A curated list of awesome awesomeness"}],"C++":[{"html_url":"https://github.com/tensorflow/tensorflow","stargazers_count":136232,"full_name":"tensorflow/tensorflow","description":"An Open Source Machine Learning Framework for Everyone"},{"html_url":"https://github.com/electron/electron","stargazers_count":77757,"full_name":"electron/electron","description":":electron: Build cross-platform desktop apps with JavaScript, HTML, and CSS"},{"html_url":"https://github.com/microsoft/terminal","stargazers_count":53344,"full_name":"microsoft/terminal","description":"The new Windows Terminal, and the original Windows console host - all in the same place!"},{"html_url":"https://github.com/apple/swift","stargazers_count":49446,"full_name":"apple/swift","description":"The Swift Programming Language"},{"html_url":"https://github.com/bitcoin/bitcoin","stargazers_count":40486,"full_name":"bitcoin/bitcoin","description":"Bitcoin Core integration/staging tree"}],"C":[{"html_url":"https://github.com/torvalds/linux","stargazers_count":81658,"full_name":"torvalds/linux","description":"Linux kernel source tree"},{"html_url":"https://github.com/netdata/netdata","stargazers_count":41860,"full_name":"netdata/netdata","description":"Real-time performance monitoring, done right! https://my-netdata.io/"},{"html_url":"https://github.com/antirez/redis","stargazers_count":39239,"full_name":"antirez/redis","description":"Redis is an in-memory database that persists on disk. The data model is key-value, but many different kind of values are supported: Strings, Lists, Sets, Sorted Sets, Hashes, Streams, HyperLogLogs, Bitmaps."},{"html_url":"https://github.com/git/git","stargazers_count":29756,"full_name":"git/git","description":"Git Source Code Mirror - This is a publish-only repository and all pull requests are ignored. Please follow Documentation/SubmittingPatches procedure for any of your improvements."},{"html_url":"https://github.com/php/php-src","stargazers_count":25238,"full_name":"php/php-src","description":"The PHP Interpreter"}]}
 {"Shell":[{"html_url":"https://github.com/robbyrussell/oh-my-zsh","stargazers_count":97095,"full_name":"robbyrussell/oh-my-zsh","description":"🙃 A delightful community-driven (with 1,300+ contributors) framework for managing your zsh configuration. Includes 200+ optional plugins (rails, git, OSX, hub, capistrano, brew, ant, php, python, etc), over 140 themes to spice up your morning, and an auto-update tool so that makes it easy to keep up with the latest updates from the community."},{"html_url":"https://github.com/nvm-sh/nvm","stargazers_count":37625,"full_name":"nvm-sh/nvm","description":"Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions"},{"html_url":"https://github.com/open-guides/og-aws","stargazers_count":25034,"full_name":"open-guides/og-aws","description":"📙 Amazon Web Services — a practical guide"},{"html_url":"https://github.com/shengxinjing/programmer-job-blacklist","stargazers_count":24366,"full_name":"shengxinjing/programmer-job-blacklist","description":":see_no_evil:程序员找工作黑名单，换工作和当技术合伙人需谨慎啊 更新有赞"},{"html_url":"https://github.com/nvie/gitflow","stargazers_count":23030,"full_name":"nvie/gitflow","description":"Git extensions to provide high-level repository operations for Vincent Driessen's branching model."}],"Jupyter Notebook":[{"html_url":"https://github.com/jackfrued/Python-100-Days","stargazers_count":65110,"full_name":"jackfrued/Python-100-Days","description":"Python - 100天从新手到大师"},{"html_url":"https://github.com/TheAlgorithms/Python","stargazers_count":60023,"full_name":"TheAlgorithms/Python","description":"All Algorithms implemented in Python"},{"html_url":"https://github.com/aymericdamien/TensorFlow-Examples","stargazers_count":34868,"full_name":"aymericdamien/TensorFlow-Examples","description":"TensorFlow Tutorial and Examples for Beginners (support TF v1 & v2)"},{"html_url":"https://github.com/practicalAI/practicalAI","stargazers_count":20942,"full_name":"practicalAI/practicalAI","description":"📚 A practical approach to machine learning. "},{"html_url":"https://github.com/jakevdp/PythonDataScienceHandbook","stargazers_count":20418,"full_name":"jakevdp/PythonDataScienceHandbook","description":"Python Data Science Handbook: full text in Jupyter Notebooks"}],"TypeScript":[{"html_url":"https://github.com/microsoft/vscode","stargazers_count":84798,"full_name":"microsoft/vscode","description":"Visual Studio Code"},{"html_url":"https://github.com/microsoft/TypeScript","stargazers_count":54910,"full_name":"microsoft/TypeScript","description":"TypeScript is a superset of JavaScript that compiles to clean JavaScript output."},{"html_url":"https://github.com/angular/angular","stargazers_count":53112,"full_name":"angular/angular","description":"One framework. Mobile & desktop."},{"html_url":"https://github.com/ant-design/ant-design","stargazers_count":52671,"full_name":"ant-design/ant-design","description":"🌈 A UI Design Language and React UI library"},{"html_url":"https://github.com/reduxjs/redux","stargazers_count":51038,"full_name":"reduxjs/redux","description":"Predictable state container for JavaScript apps"}],"Swift":[{"html_url":"https://github.com/vsouza/awesome-ios","stargazers_count":33246,"full_name":"vsouza/awesome-ios","description":"A curated list of awesome iOS ecosystem, including Objective-C and Swift Projects "},{"html_url":"https://github.com/Alamofire/Alamofire","stargazers_count":32161,"full_name":"Alamofire/Alamofire","description":"Elegant HTTP Networking in Swift"},{"html_url":"https://github.com/shadowsocks/ShadowsocksX-NG","stargazers_count":24561,"full_name":"shadowsocks/ShadowsocksX-NG","description":"Next Generation of ShadowsocksX"},{"html_url":"https://github.com/danielgindi/Charts","stargazers_count":21783,"full_name":"danielgindi/Charts","description":"Beautiful charts for iOS/tvOS/OSX! The Apple side of the crossplatform MPAndroidChart."},{"html_url":"https://github.com/raywenderlich/swift-algorithm-club","stargazers_count":21560,"full_name":"raywenderlich/swift-algorithm-club","description":"Algorithms and data structures in Swift, with explanations!"}],"Objective-C":[{"html_url":"https://github.com/AFNetworking/AFNetworking","stargazers_count":32416,"full_name":"AFNetworking/AFNetworking","description":"A delightful networking framework for iOS, macOS, watchOS, and tvOS."},{"html_url":"https://github.com/SDWebImage/SDWebImage","stargazers_count":22026,"full_name":"SDWebImage/SDWebImage","description":"Asynchronous image downloader with cache support as a UIImageView category"},{"html_url":"https://github.com/BradLarson/GPUImage","stargazers_count":18885,"full_name":"BradLarson/GPUImage","description":"An open source iOS framework for GPU-based image and video processing"},{"html_url":"https://github.com/SnapKit/Masonry","stargazers_count":17545,"full_name":"SnapKit/Masonry","description":"Harness the power of AutoLayout NSLayoutConstraints with a simplified, chainable and expressive syntax. Supports iOS and OSX Auto Layout"},{"html_url":"https://github.com/jdg/MBProgressHUD","stargazers_count":15431,"full_name":"jdg/MBProgressHUD","description":"MBProgressHUD + Customizations"}]}
@@ -1104,6 +1115,7 @@
 ## Most growing languages within last 12 months
 
 <a name="most-growing" />
+
 |language|coefficient|all repos|10+ stars|100+ stars|1000+ stars|10000+ stars|
 |----|----|----|----|----|----|----|
 |**ActionScript**|0.36715|24275→1162|1118→96|125→25|8→4|🚫→🚫|
@@ -1152,6 +1164,7 @@
 ## Most failing languages within last 12 months
 
 <a name="most-failing" />
+
 |language|coefficient|all repos|10+ stars|100+ stars|1000+ stars|10000+ stars|
 |----|----|----|----|----|----|----|
 |**Fancy**|197.22809|22→3|1→🚫|1→🚫|🚫→🚫|🚫→🚫|
