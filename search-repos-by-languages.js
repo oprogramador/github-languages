@@ -60,7 +60,7 @@ const findRepos = async () => {
   const results = [];
   for (const [i, group] of Object.entries(groups)) {
     const result = await retrieveGroup(group);
-    console.log(JSON.stringify(result));
+    console.warn(JSON.stringify(result));
     results.push(result);
     console.warn(`${i} / ${groups.length} groups processed`);
   }
