@@ -1108,8 +1108,8 @@
 
 
 ## Most growing languages within last 12 months
-
 <a name="most-growing" />
+
 |language|coefficient|all repos|10+ stars|100+ stars|1000+ stars|10000+ stars|
 |----|----|----|----|----|----|----|
 |**TypeScript**|0.80183|13→10|13→9|14→10|12→10|6→6|
@@ -1156,8 +1156,8 @@
 
 
 ## Most failing languages within last 12 months
-
 <a name="most-failing" />
+
 |language|coefficient|all repos|10+ stars|100+ stars|1000+ stars|10000+ stars|
 |----|----|----|----|----|----|----|
 |ApacheConf|2.02472|63→293|98→182|84→112|85→🚫|🚫→🚫|
