@@ -1,1089 +1,1197 @@
 # Most popular languages on GitHub
 
 ## Table of Contents
-1. [Most popular languages on GitHub as of February 18, 2019](#all)
-1. [Most popular languages on GitHub as of February 18, 2019, counting only repos with at least 10 stars](#10-stars)
-1. [Most popular languages on GitHub as of February 18, 2019, counting only repos with at least 100 stars](#100-stars)
-1. [Most popular languages on GitHub as of February 18, 2019, counting only repos with at least 1000 stars](#1000-stars)
-1. [Most popular languages on GitHub as of February 18, 2019, counting only repos with at least 10000 stars](#10000-stars)
-1. [Most popular languages on GitHub as of February 18, 2019, counting only repos with any commits pushed since January 1, 2018](#all-since-2018)
-1. [Most popular languages on GitHub as of February 18, 2019, counting only repos with at least 10 stars and any commits pushed since January 1, 2018](#10-stars-since-2018)
-1. [Most popular languages on GitHub as of February 18, 2019, counting only repos with at least 100 stars and any commits pushed since January 1, 2018](#100-stars-since-2018)
-1. [Most popular languages on GitHub as of February 18, 2019, counting only repos with at least 1000 stars and any commits pushed since January 1, 2018](#1000-stars-since-2018)
-1. [Most popular languages on GitHub as of February 18, 2019, counting only repos with at least 10000 stars and any commits pushed since January 1, 2018](#10000-stars-since-2018)
-1. [Most starred GitHub repositories by language as of February 19, 2019](#top-repos-by-language)
-1. [Most growing languages in 2018-2019](#most-growing)
-1. [Most failing languages in 2018-2019](#most-failing)
-
-## Most popular languages on GitHub as of February 18, 2019
+1. [Most popular languages on GitHub as of October 21, 2019](#all)
+1. [Most popular languages on GitHub as of October 21, 2019, counting only repos with at least 10 stars](#10-stars)
+1. [Most popular languages on GitHub as of October 21, 2019, counting only repos with at least 100 stars](#100-stars)
+1. [Most popular languages on GitHub as of October 21, 2019, counting only repos with at least 1000 stars](#1000-stars)
+1. [Most popular languages on GitHub as of October 21, 2019, counting only repos with at least 10000 stars](#10000-stars)
+1. [Most popular languages on GitHub as of October 21, 2019, counting only repos with any commits pushed since October 21, 2018](#all-active)
+1. [Most popular languages on GitHub as of October 21, 2019, counting only repos with at least 10 stars and any commits pushed since October 21, 2018](#10-stars-active)
+1. [Most popular languages on GitHub as of October 21, 2019, counting only repos with at least 100 stars and any commits pushed since October 21, 2018](#100-stars-active)
+1. [Most popular languages on GitHub as of October 21, 2019, counting only repos with at least 1000 stars and any commits pushed since October 21, 2018](#1000-stars-active)
+1. [Most popular languages on GitHub as of October 21, 2019, counting only repos with at least 10000 stars and any commits pushed since October 21, 2018](#10000-stars-active)
+1. [Most starred GitHub repositories by language as of October 21, 2019](#top-repos-by-language)
+1. [Most growing languages in the last 12 months](#most-growing)
+1. [Most failing languages in the last 12 months](#most-failing)
+## Most popular languages on GitHub as of October 21, 2019
 <a name="all" />
-
 |#|language|repos count|
 |----|----|----|
-|1|JavaScript|7001662|
-|2|Java|5884703|
-|3|HTML|4218960|
-|4|Python|3499314|
-|5|PHP|1970240|
-|6|CSS|1648866|
-|7|Ruby|1614244|
-|8|C#|1562791|
-|9|C++|1507588|
-|10|C|1091752|
-|11|Shell|821419|
-|12|TypeScript|633239|
-|13|Jupyter Notebook|562594|
-|14|Objective-C|495295|
-|15|Swift|486915|
-|16|Go|410009|
-|17|R|345684|
-|18|MATLAB|156937|
-|19|Scala|148139|
-|20|Perl|147594|
-|21|TeX|141797|
-|22|Vue|138816|
-|23|Kotlin|133084|
-|24|Vim script|129475|
-|25|Lua|115294|
-|26|Makefile|112932|
-|27|Haskell|85380|
-|28|Rust|82269|
-|29|PowerShell|80926|
-|30|CoffeeScript|66033|
-|31|Clojure|61832|
-|32|Dockerfile|60260|
-|33|Visual Basic|54369|
-|34|Emacs Lisp|47769|
-|35|Groovy|47442|
-|36|Elixir|46957|
-|37|Assembly|46706|
-|38|Processing|45442|
-|39|ColdFusion|44014|
-|40|ASP|41249|
-|41|Dart|37907|
-|42|Batchfile|28520|
-|43|Pascal|26629|
-|44|HCL|25341|
-|45|CMake|24956|
-|46|ActionScript|24232|
-|47|Erlang|23518|
-|48|Puppet|22023|
-|49|Verilog|18850|
-|50|Julia|18769|
-|51|XSLT|18598|
-|52|OCaml|17399|
-|53|Common Lisp|17064|
-|54|Fortran|16467|
-|55|VHDL|15704|
-|56|ApacheConf|14634|
-|57|F#|14591|
-|58|Roff|13530|
-|59|Elm|13282|
-|60|Prolog|12388|
-|61|PLpgSQL|12033|
-|62|Scheme|11879|
-|63|PLSQL|11749|
-|64|Racket|10906|
-|65|Apex|10576|
-|66|Smarty|10395|
-|67|Mathematica|10381|
-|68|D|10173|
-|69|Eagle|10041|
-|70|Cuda|9267|
-|71|Hack|8816|
-|72|Haxe|8537|
-|73|Tcl|7603|
-|74|QML|7526|
-|75|SQLPL|7362|
-|76|AutoHotkey|6877|
-|77|Nginx|6772|
-|78|ShaderLab|6475|
-|79|GDScript|6268|
-|80|GLSL|6166|
-|81|OpenSCAD|6002|
-|82|PostScript|5237|
-|83|Logos|5074|
-|84|KiCad Layout|4593|
-|85|SQF|4517|
-|86|Perl 6|4354|
-|87|Yacc|4254|
-|88|Smalltalk|4189|
-|89|Crystal|4186|
-|90|NSIS|4180|
-|91|SourcePawn|4073|
-|92|SAS|3955|
-|93|OpenEdge ABL|3770|
-|94|Game Maker Language|3721|
-|95|PureScript|3595|
-|96|SaltStack|3556|
-|97|Objective-C++|3519|
-|98|XML|3431|
-|99|Max|3419|
-|100|LabVIEW|3375|
+|1|JavaScript|8244417|
+|2|Java|6909532|
+|3|HTML|5557866|
+|4|Python|4345302|
+|5|PHP|2231961|
+|6|CSS|2122723|
+|7|C#|1865406|
+|8|Ruby|1756413|
+|9|C++|1700749|
+|10|C|1232909|
+|11|Shell|929583|
+|12|Jupyter Notebook|906132|
+|13|TypeScript|902371|
+|14|Swift|619112|
+|15|Objective-C|515167|
+|16|Go|510248|
+|17|R|399634|
+|18|Vue|242765|
+|19|Kotlin|219135|
+|20|MATLAB|185650|
+|21|TeX|161822|
+|22|Scala|161480|
+|23|Perl|152924|
+|24|Makefile|147869|
+|25|Vim script|136797|
+|26|Lua|128680|
+|27|Dockerfile|113778|
+|28|Rust|110820|
+|29|PowerShell|95730|
+|30|Dart|93800|
+|31|Haskell|93435|
+|32|Clojure|65984|
+|33|CoffeeScript|65826|
+|34|Visual Basic|62301|
+|35|Assembly|56089|
+|36|Elixir|54945|
+|37|Groovy|53065|
+|38|Processing|52631|
+|39|Emacs Lisp|50656|
+|40|ASP|45958|
+|41|ColdFusion|44191|
+|42|HCL|40367|
+|43|Batchfile|34476|
+|44|CMake|31221|
+|45|Pascal|30290|
+|46|Julia|26838|
+|47|Erlang|24609|
+|48|ActionScript|24275|
+|49|Verilog|22543|
+|50|Puppet|22345|
+|51|XSLT|20675|
+|52|OCaml|20417|
+|53|VHDL|19077|
+|54|Fortran|18854|
+|55|Common Lisp|18563|
+|56|Hack|18126|
+|57|Roff|17405|
+|58|F#|16413|
+|59|Smarty|15246|
+|60|Elm|14891|
+|61|PLpgSQL|14633|
+|62|Prolog|14111|
+|63|ApacheConf|14110|
+|64|PLSQL|13628|
+|65|Scheme|12825|
+|66|Apex|12570|
+|67|Racket|12363|
+|68|Mathematica|12281|
+|69|Cuda|10870|
+|70|D|10832|
+|71|ShaderLab|10492|
+|72|GDScript|9623|
+|73|Eagle|9568|
+|74|Haxe|9168|
+|75|QML|8904|
+|76|Tcl|8759|
+|77|AutoHotkey|8021|
+|78|SQLPL|7803|
+|79|GLSL|6847|
+|80|OpenSCAD|6813|
+|81|Nginx|6500|
+|82|PostScript|5803|
+|83|Logos|5352|
+|84|Game Maker Language|4959|
+|85|SAS|4941|
+|86|Smalltalk|4933|
+|87|Crystal|4840|
+|88|SQF|4783|
+|89|Perl 6|4690|
+|90|Yacc|4635|
+|91|SourcePawn|4492|
+|92|KiCad Layout|4489|
+|93|NSIS|4326|
+|94|Rebol|4323|
+|95|PureScript|4081|
+|96|SystemVerilog|4028|
+|97|Max|3972|
+|98|OpenEdge ABL|3965|
+|99|Stata|3910|
+|100|Objective-C++|3876|
 
-
-## Most popular languages on GitHub as of February 18, 2019, counting only repos with at least 10 stars
+## Most popular languages on GitHub as of October 21, 2019, counting only repos with at least 10 stars
 <a name="10-stars" />
-
 |#|language|repos count|
 |----|----|----|
-|1|JavaScript|160535|
-|2|Python|98346|
-|3|Java|69440|
-|4|PHP|42833|
-|5|C++|38335|
-|6|Ruby|35156|
-|7|C|33748|
-|8|C#|26279|
-|9|Objective-C|25826|
-|10|Go|25755|
-|11|Shell|22957|
-|12|HTML|22108|
-|13|CSS|15584|
-|14|Swift|13839|
-|15|TypeScript|12040|
-|16|Jupyter Notebook|9548|
-|17|Scala|6395|
-|18|Rust|6039|
-|19|R|5305|
-|20|Clojure|4560|
-|21|Lua|4307|
-|22|CoffeeScript|4261|
-|23|Haskell|4261|
-|24|Vim script|4234|
-|25|Kotlin|3962|
-|26|Perl|3927|
-|27|Vue|3322|
-|28|Emacs Lisp|3247|
-|29|TeX|2563|
-|30|Elixir|2534|
-|31|PowerShell|2445|
-|32|MATLAB|2254|
-|33|Erlang|2173|
-|34|Dart|1878|
-|35|Makefile|1785|
-|36|Groovy|1703|
-|37|OCaml|1658|
-|38|Julia|1268|
-|39|Dockerfile|1227|
-|40|Common Lisp|1147|
-|41|Assembly|1104|
-|42|ActionScript|1095|
-|43|Pascal|1018|
-|44|Haxe|869|
-|45|F#|809|
-|46|Elm|795|
-|47|HCL|628|
-|48|D|581|
-|49|Puppet|549|
-|50|Crystal|522|
-|51|Batchfile|510|
-|52|Visual Basic|486|
-|53|CMake|476|
-|54|Fortran|469|
-|55|Eagle|468|
-|56|Scheme|420|
-|57|XSLT|414|
-|58|Verilog|388|
-|59|Processing|383|
-|60|PureScript|382|
-|61|Nim|371|
-|62|QML|344|
-|63|Objective-C++|331|
-|64|Racket|327|
-|65|PLpgSQL|311|
-|66|GLSL|289|
-|67|Vala|282|
-|68|AutoHotkey|281|
-|69|VHDL|245|
-|70|Cuda|243|
-|71|GDScript|243|
-|72|Smarty|242|
-|73|Apex|215|
-|74|AppleScript|207|
-|75|Nix|207|
-|76|Roff|199|
-|77|ColdFusion|187|
-|78|ShaderLab|181|
-|79|Tcl|180|
-|80|Coq|177|
-|81|Logos|173|
-|82|Mathematica|170|
-|83|KiCad Layout|158|
-|84|OpenSCAD|153|
-|85|PLSQL|141|
-|86|Nginx|140|
-|87|PostScript|139|
-|88|Perl 6|136|
-|89|Prolog|132|
-|90|ASP|128|
-|91|Smalltalk|126|
-|92|Max|124|
-|93|SourcePawn|124|
-|94|ApacheConf|117|
-|95|Idris|112|
-|96|OpenEdge ABL|110|
-|97|Agda|109|
-|98|SaltStack|109|
-|99|LiveScript|105|
-|100|WebAssembly|103|
+|1|JavaScript|179097|
+|2|Python|121614|
+|3|Java|78861|
+|4|PHP|47112|
+|5|C++|46144|
+|6|C|38840|
+|7|Ruby|36362|
+|8|C#|32211|
+|9|Go|31196|
+|10|Objective-C|26940|
+|11|Shell|26839|
+|12|HTML|26159|
+|13|TypeScript|17784|
+|14|CSS|17326|
+|15|Swift|16003|
+|16|Jupyter Notebook|13894|
+|17|Rust|8172|
+|18|Scala|6960|
+|19|R|6613|
+|20|Kotlin|5855|
+|21|Lua|4953|
+|22|Clojure|4896|
+|23|Vue|4788|
+|24|Haskell|4759|
+|25|Vim script|4604|
+|26|CoffeeScript|4293|
+|27|Perl|4179|
+|28|Dart|3869|
+|29|Emacs Lisp|3608|
+|30|TeX|3201|
+|31|MATLAB|3184|
+|32|PowerShell|3075|
+|33|Elixir|2929|
+|34|Erlang|2279|
+|35|Makefile|2165|
+|36|Dockerfile|1985|
+|37|OCaml|1921|
+|38|Groovy|1876|
+|39|Julia|1633|
+|40|Assembly|1407|
+|41|Pascal|1292|
+|42|Common Lisp|1283|
+|43|ActionScript|1118|
+|44|Haxe|939|
+|45|F#|926|
+|46|HCL|906|
+|47|Elm|889|
+|48|CMake|636|
+|49|D|628|
+|50|Batchfile|618|
+|51|Fortran|610|
+|52|Crystal|604|
+|53|Visual Basic|589|
+|54|Verilog|579|
+|55|Puppet|464|
+|56|Nim|463|
+|57|Scheme|462|
+|58|Eagle|449|
+|59|Processing|448|
+|60|XSLT|441|
+|61|PureScript|438|
+|62|QML|416|
+|63|Racket|389|
+|64|Objective-C++|371|
+|65|GDScript|362|
+|66|GLSL|348|
+|67|Vala|342|
+|68|PLpgSQL|337|
+|69|AutoHotkey|333|
+|70|Smarty|323|
+|71|Cuda|321|
+|72|VHDL|299|
+|73|ShaderLab|289|
+|74|Nix|272|
+|75|Roff|272|
+|76|Apex|236|
+|77|Coq|234|
+|78|AppleScript|225|
+|79|Mathematica|221|
+|80|Logos|202|
+|81|Tcl|201|
+|82|ColdFusion|192|
+|83|OpenSCAD|178|
+|84|PLSQL|174|
+|85|KiCad Layout|172|
+|86|Smalltalk|166|
+|87|PostScript|162|
+|88|ASP|160|
+|89|SourcePawn|158|
+|90|Prolog|153|
+|91|Perl 6|149|
+|92|Max|145|
+|93|Nginx|144|
+|94|OpenEdge ABL|144|
+|95|Agda|140|
+|96|Solidity|135|
+|97|WebAssembly|125|
+|98|ApacheConf|123|
+|99|Idris|120|
+|100|Standard ML|114|
 
-
-## Most popular languages on GitHub as of February 18, 2019, counting only repos with at least 100 stars
+## Most popular languages on GitHub as of October 21, 2019, counting only repos with at least 100 stars
 <a name="100-stars" />
-
 |#|language|repos count|
 |----|----|----|
-|1|JavaScript|29947|
-|2|Python|16752|
-|3|Java|13711|
-|4|C++|6446|
-|5|PHP|6339|
-|6|Objective-C|6142|
-|7|Go|5919|
-|8|Ruby|5830|
-|9|C|5823|
-|10|C#|4037|
-|11|HTML|3803|
-|12|Swift|3445|
-|13|Shell|3360|
-|14|CSS|2950|
-|15|TypeScript|2350|
-|16|Jupyter Notebook|1545|
-|17|Rust|1175|
-|18|Scala|1105|
-|19|Kotlin|895|
-|20|Clojure|885|
-|21|Vim script|881|
-|22|CoffeeScript|718|
-|23|Vue|718|
-|24|Lua|623|
-|25|Haskell|581|
-|26|R|578|
-|27|Emacs Lisp|550|
-|28|Elixir|460|
-|29|Perl|440|
-|30|TeX|372|
-|31|PowerShell|366|
-|32|Erlang|329|
-|33|Dart|285|
-|34|Makefile|246|
-|35|Groovy|242|
-|36|MATLAB|199|
-|37|OCaml|194|
-|38|Dockerfile|184|
-|39|Assembly|140|
-|40|Julia|138|
-|41|ActionScript|125|
-|42|Common Lisp|123|
-|43|F#|112|
-|44|Elm|107|
-|45|Pascal|103|
-|46|CMake|71|
-|47|Objective-C++|68|
-|48|Batchfile|63|
-|49|D|59|
-|50|Haxe|58|
-|51|HCL|56|
-|52|Visual Basic|56|
-|53|PLpgSQL|54|
-|54|Vala|54|
-|55|Scheme|52|
-|56|Crystal|51|
-|57|Cuda|50|
-|58|GLSL|43|
-|59|Processing|42|
-|60|XSLT|42|
-|61|Eagle|39|
-|62|Nim|37|
-|63|Verilog|37|
-|64|QML|36|
-|65|AutoHotkey|34|
-|66|ShaderLab|34|
-|67|Racket|33|
-|68|Roff|33|
-|69|AppleScript|32|
-|70|Smarty|32|
-|71|PureScript|28|
-|72|PostScript|25|
-|73|Fortran|24|
-|74|Puppet|24|
-|75|Nix|23|
-|76|Standard ML|22|
-|77|ApacheConf|21|
-|78|OpenSCAD|21|
-|79|WebAssembly|21|
-|80|VHDL|20|
-|81|GDScript|19|
-|82|OpenEdge ABL|19|
-|83|Coq|18|
-|84|Mathematica|18|
-|85|ASP|17|
-|86|LiveScript|17|
-|87|Tcl|17|
-|88|Gherkin|16|
-|89|Perl 6|16|
-|90|Apex|15|
-|91|FreeMarker|15|
-|92|PLSQL|14|
-|93|Awk|13|
-|94|Prolog|13|
-|95|ColdFusion|12|
-|96|HLSL|12|
-|97|Idris|12|
-|98|LLVM|12|
-|99|Nginx|12|
-|100|AutoIt|11|
+|1|JavaScript|33189|
+|2|Python|21225|
+|3|Java|15380|
+|4|C++|7946|
+|5|Go|7122|
+|6|PHP|7083|
+|7|C|6770|
+|8|Objective-C|6326|
+|9|Ruby|6084|
+|10|C#|5050|
+|11|HTML|4413|
+|12|Shell|4036|
+|13|Swift|3907|
+|14|TypeScript|3530|
+|15|CSS|3274|
+|16|Jupyter Notebook|2177|
+|17|Rust|1653|
+|18|Kotlin|1274|
+|19|Scala|1208|
+|20|Vue|981|
+|21|Clojure|973|
+|22|Vim script|945|
+|23|R|736|
+|24|CoffeeScript|715|
+|25|Lua|712|
+|26|Dart|673|
+|27|Haskell|660|
+|28|Emacs Lisp|624|
+|29|Elixir|522|
+|30|Perl|498|
+|31|PowerShell|485|
+|32|TeX|448|
+|33|Erlang|348|
+|34|Makefile|289|
+|35|Groovy|274|
+|36|Dockerfile|259|
+|37|MATLAB|251|
+|38|OCaml|235|
+|39|Julia|181|
+|40|Assembly|176|
+|41|Common Lisp|139|
+|42|F#|130|
+|43|Elm|127|
+|44|ActionScript|125|
+|45|Pascal|119|
+|46|HCL|93|
+|47|CMake|90|
+|48|Batchfile|88|
+|49|Objective-C++|76|
+|50|Crystal|66|
+|51|Haxe|66|
+|52|Visual Basic|66|
+|53|D|64|
+|54|PLpgSQL|64|
+|55|Vala|62|
+|56|Cuda|60|
+|57|Scheme|58|
+|58|ShaderLab|54|
+|59|GLSL|53|
+|60|Verilog|51|
+|61|Processing|50|
+|62|Roff|50|
+|63|Nim|48|
+|64|QML|48|
+|65|XSLT|48|
+|66|Smarty|40|
+|67|Racket|39|
+|68|AutoHotkey|37|
+|69|Fortran|37|
+|70|PureScript|37|
+|71|Eagle|36|
+|72|AppleScript|35|
+|73|Nix|32|
+|74|PostScript|32|
+|75|Coq|30|
+|76|GDScript|30|
+|77|OpenSCAD|27|
+|78|OpenEdge ABL|25|
+|79|VHDL|25|
+|80|ASP|24|
+|81|Puppet|24|
+|82|Standard ML|24|
+|83|Mathematica|23|
+|84|ApacheConf|21|
+|85|Apex|21|
+|86|Tcl|21|
+|87|HLSL|20|
+|88|FreeMarker|19|
+|89|Gherkin|19|
+|90|Prolog|19|
+|91|LiveScript|18|
+|92|WebAssembly|18|
+|93|AutoIt|16|
+|94|Idris|16|
+|95|Perl 6|16|
+|96|YARA|15|
+|97|Awk|14|
+|98|Smalltalk|14|
+|99|Solidity|14|
+|100|SystemVerilog|14|
 
-
-## Most popular languages on GitHub as of February 18, 2019, counting only repos with at least 1000 stars
+## Most popular languages on GitHub as of October 21, 2019, counting only repos with at least 1000 stars
 <a name="1000-stars" />
-
 |#|language|repos count|
 |----|----|----|
-|1|JavaScript|4381|
-|2|Java|2008|
-|3|Python|1906|
-|4|Go|999|
-|5|Objective-C|803|
-|6|C++|758|
-|7|PHP|750|
-|8|Ruby|698|
-|9|C|665|
-|10|Swift|578|
-|11|HTML|520|
-|12|C#|397|
-|13|CSS|393|
-|14|Shell|372|
-|15|TypeScript|366|
-|16|Jupyter Notebook|182|
-|17|Rust|138|
-|18|Vim script|118|
-|19|Kotlin|113|
-|20|Scala|106|
-|21|CoffeeScript|97|
-|22|Vue|82|
-|23|Clojure|69|
-|24|Lua|55|
-|25|Haskell|42|
-|26|TeX|41|
-|27|Makefile|37|
-|28|Emacs Lisp|33|
-|29|Perl|31|
-|30|Elixir|29|
-|31|R|24|
-|32|PowerShell|24|
-|33|Dart|22|
-|34|Erlang|22|
-|35|Dockerfile|19|
-|36|Assembly|18|
-|37|OCaml|18|
-|38|Objective-C++|15|
-|39|Groovy|14|
-|40|MATLAB|11|
-|41|ActionScript|8|
-|42|Common Lisp|8|
-|43|Cuda|7|
-|44|Crystal|6|
-|45|F#|6|
-|46|Pascal|6|
-|47|Batchfile|5|
-|48|Elm|5|
-|49|Haxe|5|
-|50|Julia|5|
-|51|PLpgSQL|5|
-|52|Roff|5|
-|53|XSLT|5|
-|54|CMake|4|
-|55|Scheme|4|
-|56|Vala|4|
-|57|AppleScript|3|
-|58|ASP|3|
-|59|AutoHotkey|3|
-|60|D|3|
-|61|HCL|3|
+|1|JavaScript|4830|
+|2|Python|2422|
+|3|Java|2255|
+|4|Go|1275|
+|5|C++|965|
+|6|PHP|878|
+|7|Objective-C|846|
+|8|C|796|
+|9|Ruby|724|
+|10|Swift|659|
+|11|HTML|587|
+|12|TypeScript|583|
+|13|C#|493|
+|14|Shell|460|
+|15|CSS|440|
+|16|Jupyter Notebook|271|
+|17|Rust|209|
+|18|Kotlin|161|
+|19|Vim script|132|
+|20|Scala|120|
+|21|Vue|114|
+|22|CoffeeScript|93|
+|23|Clojure|76|
+|24|Lua|64|
+|25|Dart|57|
+|26|Haskell|51|
+|27|TeX|50|
+|28|PowerShell|42|
+|29|Emacs Lisp|40|
+|30|Makefile|39|
+|31|Elixir|37|
+|32|Perl|35|
+|33|R|32|
+|34|Erlang|27|
+|35|Assembly|24|
+|36|OCaml|24|
+|37|Dockerfile|20|
+|38|Objective-C++|17|
+|39|MATLAB|14|
+|40|Groovy|14|
+|41|Batchfile|10|
+|42|Common Lisp|10|
+|43|CMake|9|
+|44|Cuda|9|
+|45|ActionScript|8|
+|46|Crystal|7|
+|47|F#|7|
+|48|Pascal|7|
+|49|Vala|7|
+|50|D|6|
+|51|Julia|6|
+|52|PLpgSQL|6|
+|53|Roff|6|
+|54|XSLT|6|
+|55|Elm|5|
+|56|Haxe|5|
+|57|HCL|4|
+|58|Scheme|4|
+|59|AppleScript|3|
+|60|ASP|3|
+|61|PureScript|3|
 |62|WebAssembly|3|
-|63|Awk|2|
-|64|DIGITAL Command Language|2|
-|65|GCC Machine Description|2|
-|66|Gherkin|2|
-|67|Hack|2|
-|68|Inno Setup|2|
-|69|LiveScript|2|
-|70|Mathematica|2|
-|71|Nix|2|
-|72|NSIS|2|
-|73|Perl 6|2|
-|74|Processing|2|
-|75|PureBasic|2|
-|76|PureScript|2|
-|77|QML|2|
-|78|ShaderLab|2|
-|79|Visual Basic|2|
-|80|ANTLR|1|
-|81|ApacheConf|1|
-|82|BitBake|1|
-|83|Bro|1|
-|84|Eagle|1|
-|85|F\*|1|
-|86|Fortran|1|
-|87|Frege|1|
-|88|GLSL|1|
-|89|IDL|1|
-|90|LLVM|1|
-|91|Metal|1|
-|92|MoonScript|1|
-|93|Nim|1|
-|94|Objective-J|1|
-|95|OpenSCAD|1|
-|96|Pony|1|
-|97|PostScript|1|
-|98|Protocol Buffer|1|
-|99|Racket|1|
-|100|Rascal|1|
+|63|YARA|3|
+|64|AutoHotkey|2|
+|65|Awk|2|
+|66|DIGITAL Command Language|2|
+|67|Gherkin|2|
+|68|GLSL|2|
+|69|Gnuplot|2|
+|70|Hack|2|
+|71|Inno Setup|2|
+|72|LiveScript|2|
+|73|Markdown|2|
+|74|Mathematica|2|
+|75|NSIS|2|
+|76|Perl 6|2|
+|77|PostScript|2|
+|78|Processing|2|
+|79|PureBasic|2|
+|80|QML|2|
+|81|ShaderLab|2|
+|82|SQLPL|2|
+|83|Visual Basic|2|
+|84|ANTLR|1|
+|85|ApacheConf|1|
+|86|Arc|1|
+|87|BitBake|1|
+|88|Bro|1|
+|89|Eagle|1|
+|90|F*|1|
+|91|Fortran|1|
+|92|Frege|1|
+|93|GCC Machine Description|1|
+|94|IDL|1|
+|95|LLVM|1|
+|96|MoonScript|1|
+|97|Nim|1|
+|98|Nix|1|
+|99|Objective-J|1|
+|100|OpenEdge ABL|1|
 
-
-## Most popular languages on GitHub as of February 18, 2019, counting only repos with at least 10000 stars
+## Most popular languages on GitHub as of October 21, 2019, counting only repos with at least 10000 stars
 <a name="10000-stars" />
-
 |#|language|repos count|
 |----|----|----|
-|1|JavaScript|346|
-|2|Python|80|
-|3|Java|68|
-|4|Go|58|
-|5|C++|43|
-|6|HTML|28|
-|7|Objective-C|28|
-|8|TypeScript|28|
-|9|CSS|25|
-|10|Ruby|22|
-|11|Shell|22|
-|12|C|21|
-|13|PHP|20|
-|14|Swift|18|
-|15|Kotlin|11|
-|16|Jupyter Notebook|10|
-|17|C#|9|
-|18|Vim script|8|
-|19|Vue|8|
-|20|Rust|6|
-|21|CoffeeScript|5|
-|22|Scala|5|
+|1|JavaScript|397|
+|2|Python|114|
+|3|Java|103|
+|4|Go|78|
+|5|C++|53|
+|6|TypeScript|46|
+|7|HTML|36|
+|8|C|32|
+|9|Shell|31|
+|10|Objective-C|30|
+|11|Swift|30|
+|12|CSS|29|
+|13|PHP|29|
+|14|Ruby|25|
+|15|Jupyter Notebook|18|
+|16|Vim script|15|
+|17|C#|14|
+|18|Kotlin|12|
+|19|Rust|10|
+|20|Vue|9|
+|21|CoffeeScript|6|
+|22|Scala|6|
 |23|Lua|4|
 |24|TeX|4|
-|25|Haskell|3|
-|26|Objective-C++|3|
-|27|Clojure|2|
-|28|Assembly|2|
-|29|Dart|2|
-|30|Dockerfile|2|
+|25|Clojure|3|
+|26|Haskell|3|
+|27|Dart|3|
+|28|Makefile|3|
+|29|Objective-C++|3|
+|30|Assembly|2|
 |31|Elixir|2|
-|32|Perl|1|
-|33|Batchfile|1|
-|34|Crystal|1|
-|35|Emacs Lisp|1|
-|36|Julia|1|
-|37|Makefile|1|
-|38|OCaml|1|
-|39|Rascal|1|
+|32|OCaml|2|
+|33|Perl|1|
+|34|Batchfile|1|
+|35|Crystal|1|
+|36|Dockerfile|1|
+|37|Emacs Lisp|1|
+|38|Julia|1|
+|39|Markdown|1|
+|40|QML|1|
+|41|Rascal|1|
+|42|Standard ML|1|
+|43|ActionScript|0|
+|44|MATLAB|0|
+|45|R|0|
+|46|1C Enterprise|0|
+|47|ABAP|0|
+|48|ABNF|0|
+|49|Ada|0|
+|50|Adobe Font Metrics|0|
+|51|Agda|0|
+|52|AGS Script|0|
+|53|Alloy|0|
+|54|Alpine Abuild|0|
+|55|AMPL|0|
+|56|AngelScript|0|
+|57|Ant Build System|0|
+|58|ANTLR|0|
+|59|ApacheConf|0|
+|60|Apex|0|
+|61|API Blueprint|0|
+|62|APL|0|
+|63|Apollo Guidance Computer|0|
+|64|AppleScript|0|
+|65|Arc|0|
+|66|AsciiDoc|0|
+|67|ASN.1|0|
+|68|ASP|0|
+|69|AspectJ|0|
+|70|ATS|0|
+|71|Augeas|0|
+|72|AutoHotkey|0|
+|73|AutoIt|0|
+|74|Awk|0|
+|75|Ballerina|0|
+|76|Befunge|0|
+|77|Bison|0|
+|78|BitBake|0|
+|79|Blade|0|
+|80|BlitzBasic|0|
+|81|BlitzMax|0|
+|82|Bluespec|0|
+|83|Boo|0|
+|84|Brainfuck|0|
+|85|Brightscript|0|
+|86|Bro|0|
+|87|C-ObjDump|0|
+|88|C2hs Haskell|0|
+|89|Cap'n Proto|0|
+|90|CartoCSS|0|
+|91|Ceylon|0|
+|92|Chapel|0|
+|93|Charity|0|
+|94|ChucK|0|
+|95|Cirru|0|
+|96|Clarion|0|
+|97|Clean|0|
+|98|Click|0|
+|99|CLIPS|0|
+|100|Closure Templates|0|
 
-
-## Most popular languages on GitHub as of February 18, 2019, counting only repos with any commits pushed since January 1, 2018
-<a name="all-since-2018" />
-
+## Most popular languages on GitHub as of October 21, 2019, counting only repos with any commits pushed since October 21, 2018
+<a name="all-active" />
 |#|language|repos count|
 |----|----|----|
-|1|JavaScript|2967906|
-|2|Java|2295816|
-|3|HTML|2138528|
-|4|Python|1622296|
-|5|CSS|696293|
-|6|PHP|696129|
-|7|C#|654848|
-|8|C++|621042|
-|9|TypeScript|429913|
-|10|Jupyter Notebook|391638|
-|11|C|382089|
-|12|Ruby|367249|
-|13|Shell|305737|
-|14|Swift|215516|
-|15|Go|198648|
-|16|R|131140|
-|17|Vue|112743|
-|18|Kotlin|104410|
-|19|Objective-C|88657|
-|20|MATLAB|63414|
-|21|Dockerfile|60258|
-|22|Makefile|59296|
-|23|Vim script|53490|
-|24|Rust|46365|
-|25|TeX|45465|
-|26|Scala|45193|
-|27|PowerShell|36566|
-|28|Lua|34724|
-|29|Dart|29951|
-|30|Perl|25691|
-|31|Haskell|25677|
-|32|Elixir|20133|
-|33|Emacs Lisp|19767|
-|34|Visual Basic|19020|
-|35|Assembly|18582|
-|36|HCL|18184|
-|37|ASP|15222|
-|38|Groovy|14693|
-|39|Processing|14544|
-|40|Clojure|14195|
-|41|Batchfile|14053|
-|42|CMake|13460|
-|43|Julia|10756|
-|44|Pascal|9421|
-|45|Hack|8511|
-|46|Roff|8426|
-|47|Verilog|7681|
-|48|OCaml|7324|
-|49|CoffeeScript|6908|
-|50|PLpgSQL|6836|
-|51|XSLT|6687|
-|52|Fortran|6679|
-|53|Smarty|6548|
-|54|VHDL|5967|
-|55|PLSQL|5488|
-|56|F#|5257|
-|57|Elm|5245|
-|58|ShaderLab|5245|
-|59|Erlang|4845|
-|60|Common Lisp|4699|
-|61|GDScript|4415|
-|62|Mathematica|4376|
-|63|Prolog|4115|
-|64|Apex|4079|
-|65|Puppet|3808|
-|66|SQLPL|3649|
-|67|Racket|3643|
-|68|Cuda|3377|
-|69|QML|3229|
-|70|Tcl|3213|
-|71|Scheme|3070|
-|72|AutoHotkey|2816|
-|73|D|2532|
-|74|Yacc|2349|
-|75|OpenSCAD|2257|
-|76|Crystal|2234|
-|77|Haxe|2167|
-|78|SAS|2135|
-|79|Smalltalk|2006|
-|80|PureScript|1817|
-|81|SourcePawn|1799|
-|82|Game Maker Language|1792|
-|83|Nix|1778|
-|84|PostScript|1749|
-|85|Perl 6|1737|
-|86|ActionScript|1680|
-|87|GLSL|1642|
-|88|Stata|1610|
-|89|Nim|1600|
-|90|Liquid|1547|
-|91|FreeMarker|1523|
-|92|SystemVerilog|1514|
-|93|SQF|1468|
-|94|SaltStack|1455|
-|95|LabVIEW|1331|
-|96|Standard ML|1260|
-|97|Max|1206|
-|98|Gherkin|1198|
-|99|QMake|1172|
-|100|Coq|1161|
+|1|JavaScript|3009308|
+|2|HTML|2405180|
+|3|Java|2163529|
+|4|Python|1687503|
+|5|CSS|679838|
+|6|C#|627956|
+|7|PHP|622677|
+|8|C++|595326|
+|9|Jupyter Notebook|540784|
+|10|TypeScript|478327|
+|11|C|361518|
+|12|Ruby|341204|
+|13|Shell|291283|
+|14|Go|208779|
+|15|Swift|196740|
+|16|Vue|166713|
+|17|Kotlin|137406|
+|18|R|121761|
+|19|Dockerfile|95665|
+|20|Dart|74591|
+|21|Makefile|65583|
+|22|Objective-C|65244|
+|23|MATLAB|59095|
+|24|Rust|56381|
+|25|TeX|52723|
+|26|Vim script|47855|
+|27|Scala|37830|
+|28|PowerShell|34937|
+|29|Lua|32532|
+|30|HCL|24832|
+|31|Perl|22773|
+|32|Haskell|22147|
+|33|Assembly|18800|
+|34|Elixir|18115|
+|35|Visual Basic|17826|
+|36|Emacs Lisp|17430|
+|37|Julia|15258|
+|38|Hack|15031|
+|39|Processing|13887|
+|40|Batchfile|13486|
+|41|Groovy|13394|
+|42|CMake|12858|
+|43|Clojure|12281|
+|44|ASP|11806|
+|45|Pascal|8878|
+|46|Smarty|8565|
+|47|Roff|8095|
+|48|Verilog|7616|
+|49|OCaml|7179|
+|50|ShaderLab|7052|
+|51|PLpgSQL|6634|
+|52|VHDL|6184|
+|53|Fortran|6112|
+|54|XSLT|5584|
+|55|GDScript|5569|
+|56|PLSQL|4617|
+|57|F#|4552|
+|58|CoffeeScript|4424|
+|59|Common Lisp|4398|
+|60|Mathematica|4199|
+|61|Elm|4157|
+|62|Erlang|3933|
+|63|Prolog|3822|
+|64|Apex|3799|
+|65|Racket|3492|
+|66|Cuda|3261|
+|67|QML|3145|
+|68|Tcl|2871|
+|69|Rebol|2810|
+|70|Scheme|2776|
+|71|AutoHotkey|2771|
+|72|Game Maker Language|2635|
+|73|Puppet|2582|
+|74|D|2306|
+|75|SQLPL|2122|
+|76|Nix|2114|
+|77|OpenSCAD|1984|
+|78|Smalltalk|1942|
+|79|Haxe|1923|
+|80|Crystal|1907|
+|81|SAS|1877|
+|82|Nim|1679|
+|83|SystemVerilog|1670|
+|84|Stata|1604|
+|85|GLSL|1552|
+|86|PostScript|1551|
+|87|FreeMarker|1518|
+|88|Perl 6|1444|
+|89|SourcePawn|1413|
+|90|Liquid|1372|
+|91|PureScript|1363|
+|92|AMPL|1292|
+|93|Coq|1260|
+|94|Gherkin|1253|
+|95|Max|1210|
+|96|Standard ML|1166|
+|97|ActionScript|1162|
+|98|ABAP|1094|
+|99|SaltStack|1094|
+|100|RobotFramework|1088|
 
-
-## Most popular languages on GitHub as of February 18, 2019, counting only repos with at least 10 stars and any commits pushed since January 1, 2018
-<a name="10-stars-since-2018" />
-
+## Most popular languages on GitHub as of October 21, 2019, counting only repos with at least 10 stars and any commits pushed since October 21, 2018
+<a name="10-stars-active" />
 |#|language|repos count|
 |----|----|----|
-|1|JavaScript|73077|
-|2|Python|52933|
-|3|Java|30680|
-|4|C++|20537|
-|5|PHP|20442|
-|6|C|15647|
-|7|Go|15454|
-|8|C#|14252|
-|9|HTML|12602|
-|10|Shell|11900|
-|11|Ruby|11135|
-|12|TypeScript|9447|
-|13|Swift|7342|
-|14|CSS|6879|
-|15|Jupyter Notebook|6217|
-|16|Objective-C|6016|
-|17|Rust|4418|
-|18|R|3464|
-|19|Kotlin|3103|
-|20|Scala|2816|
-|21|Vue|2527|
-|22|Haskell|2311|
-|23|Vim script|2044|
-|24|Lua|1896|
-|25|Emacs Lisp|1727|
-|26|Perl|1693|
-|27|Clojure|1638|
-|28|Dart|1590|
-|29|Elixir|1578|
-|30|PowerShell|1526|
-|31|TeX|1450|
-|32|Dockerfile|1227|
-|33|CoffeeScript|1155|
-|34|Makefile|1048|
-|35|OCaml|1041|
-|36|Julia|992|
-|37|MATLAB|979|
-|38|Groovy|810|
-|39|Erlang|732|
-|40|Pascal|579|
-|41|Assembly|517|
-|42|F#|490|
-|43|Common Lisp|485|
-|44|HCL|457|
-|45|Elm|431|
-|46|Crystal|366|
-|47|Haxe|350|
-|48|Batchfile|323|
-|49|Fortran|323|
-|50|D|307|
-|51|CMake|295|
-|52|Nim|293|
-|53|PureScript|268|
-|54|Visual Basic|219|
-|55|Vala|218|
-|56|Verilog|213|
-|57|PLpgSQL|207|
-|58|QML|207|
-|59|XSLT|200|
-|60|Puppet|181|
-|61|Smarty|173|
-|62|Racket|170|
-|63|Nix|158|
-|64|GDScript|155|
-|65|Scheme|154|
-|66|Roff|149|
-|67|ShaderLab|136|
-|68|Cuda|131|
-|69|Objective-C++|130|
-|70|AutoHotkey|127|
-|71|GLSL|125|
-|72|ActionScript|124|
-|73|Processing|123|
-|74|VHDL|118|
-|75|Coq|114|
-|76|Tcl|103|
-|77|Solidity|102|
-|78|Apex|100|
-|79|Mathematica|100|
-|80|SourcePawn|96|
-|81|WebAssembly|96|
-|82|Smalltalk|95|
-|83|OpenSCAD|85|
-|84|PLSQL|82|
-|85|Perl 6|77|
-|86|SaltStack|75|
-|87|AppleScript|71|
-|88|PostScript|70|
-|89|Prolog|66|
-|90|Agda|65|
-|91|1C Enterprise|62|
-|92|Gherkin|62|
-|93|Idris|60|
-|94|ColdFusion|57|
-|95|OpenEdge ABL|52|
-|96|SQF|52|
-|97|Max|50|
-|98|Ada|49|
-|99|SQLPL|49|
-|100|M4|48|
+|1|JavaScript|69220|
+|2|Python|58202|
+|3|Java|29533|
+|4|C++|21725|
+|5|PHP|19616|
+|6|Go|16862|
+|7|C|15893|
+|8|C#|15392|
+|9|TypeScript|12949|
+|10|HTML|12848|
+|11|Shell|12386|
+|12|Ruby|10095|
+|13|Jupyter Notebook|7414|
+|14|Swift|7309|
+|15|CSS|6677|
+|16|Rust|5616|
+|17|Objective-C|4785|
+|18|Kotlin|3934|
+|19|R|3884|
+|20|Vue|3087|
+|21|Dart|3065|
+|22|Scala|2711|
+|23|Haskell|2218|
+|24|Vim script|2031|
+|25|Lua|1981|
+|26|Dockerfile|1843|
+|27|PowerShell|1718|
+|28|Emacs Lisp|1714|
+|29|Perl|1627|
+|30|TeX|1606|
+|31|Clojure|1596|
+|32|Elixir|1550|
+|33|Julia|1202|
+|34|MATLAB|1120|
+|35|Makefile|1102|
+|36|OCaml|1093|
+|37|CoffeeScript|815|
+|38|Groovy|776|
+|39|Erlang|657|
+|40|Pascal|646|
+|41|Assembly|594|
+|42|HCL|586|
+|43|Common Lisp|496|
+|44|F#|424|
+|45|Fortran|391|
+|46|Crystal|358|
+|47|Elm|356|
+|48|CMake|347|
+|49|Haxe|342|
+|50|Nim|341|
+|51|D|316|
+|52|Batchfile|293|
+|53|Visual Basic|254|
+|54|Vala|252|
+|55|PureScript|245|
+|56|Verilog|244|
+|57|GDScript|223|
+|58|QML|208|
+|59|Smarty|206|
+|60|Nix|200|
+|61|Racket|197|
+|62|XSLT|192|
+|63|PLpgSQL|187|
+|64|Roff|171|
+|65|Scheme|158|
+|66|Cuda|151|
+|67|ShaderLab|149|
+|68|Coq|146|
+|69|AutoHotkey|135|
+|70|GLSL|128|
+|71|Processing|123|
+|72|Objective-C++|121|
+|73|Smalltalk|120|
+|74|Mathematica|119|
+|75|VHDL|115|
+|76|Solidity|108|
+|77|SourcePawn|102|
+|78|ActionScript|96|
+|79|Apex|96|
+|80|PLSQL|96|
+|81|Puppet|93|
+|82|Tcl|92|
+|83|WebAssembly|80|
+|84|OpenSCAD|76|
+|85|Agda|74|
+|86|Perl 6|74|
+|87|PostScript|72|
+|88|SaltStack|68|
+|89|Prolog|67|
+|90|1C Enterprise|62|
+|91|AppleScript|61|
+|92|HLSL|61|
+|93|Ada|59|
+|94|BitBake|54|
+|95|ColdFusion|54|
+|96|OpenEdge ABL|53|
+|97|Gherkin|52|
+|98|Logos|52|
+|99|Max|51|
+|100|SystemVerilog|49|
 
-
-## Most popular languages on GitHub as of February 18, 2019, counting only repos with at least 100 stars and any commits pushed since January 1, 2018
-<a name="100-stars-since-2018" />
-
+## Most popular languages on GitHub as of October 21, 2019, counting only repos with at least 100 stars and any commits pushed since October 21, 2018
+<a name="100-stars-active" />
 |#|language|repos count|
 |----|----|----|
-|1|JavaScript|19497|
-|2|Python|12501|
-|3|Java|8449|
-|4|C++|4991|
-|5|PHP|4663|
-|6|Go|4644|
-|7|C|4234|
-|8|Ruby|3302|
-|9|C#|3152|
-|10|HTML|2687|
-|11|Swift|2466|
-|12|Shell|2429|
-|13|TypeScript|2168|
-|14|Objective-C|2167|
-|15|CSS|1711|
-|16|Jupyter Notebook|1147|
-|17|Rust|1058|
-|18|Kotlin|792|
-|19|Scala|768|
-|20|Vim script|647|
-|21|Vue|594|
-|22|Clojure|532|
-|23|R|488|
-|24|Haskell|447|
-|25|Emacs Lisp|445|
-|26|Elixir|383|
-|27|Lua|374|
-|28|CoffeeScript|325|
-|29|Perl|308|
-|30|PowerShell|292|
-|31|TeX|278|
-|32|Dart|267|
-|33|Erlang|205|
-|34|Makefile|190|
-|35|Dockerfile|184|
-|36|Groovy|175|
-|37|OCaml|169|
-|38|Julia|129|
-|39|MATLAB|112|
-|40|F#|93|
-|41|Assembly|86|
-|42|Pascal|86|
-|43|Common Lisp|84|
+|1|JavaScript|19265|
+|2|Python|14521|
+|3|Java|8398|
+|4|C++|5689|
+|5|Go|5272|
+|6|PHP|4841|
+|7|C|4551|
+|8|C#|3637|
+|9|Ruby|3191|
+|10|TypeScript|3115|
+|11|HTML|2760|
+|12|Shell|2746|
+|13|Swift|2607|
+|14|Objective-C|1806|
+|15|CSS|1739|
+|16|Rust|1430|
+|17|Jupyter Notebook|1405|
+|18|Kotlin|1024|
+|19|Scala|769|
+|20|Vue|720|
+|21|Vim script|627|
+|22|Dart|611|
+|23|R|583|
+|24|Clojure|556|
+|25|Haskell|487|
+|26|Emacs Lisp|463|
+|27|Elixir|396|
+|28|Lua|383|
+|29|PowerShell|357|
+|30|Perl|327|
+|31|TeX|291|
+|32|CoffeeScript|264|
+|33|Dockerfile|251|
+|34|Erlang|196|
+|35|Makefile|195|
+|36|OCaml|193|
+|37|Groovy|177|
+|38|Julia|167|
+|39|MATLAB|117|
+|40|Assembly|116|
+|41|F#|100|
+|42|Pascal|96|
+|43|Common Lisp|92|
 |44|Elm|83|
-|45|CMake|53|
-|46|D|50|
-|47|HCL|50|
-|48|Vala|48|
-|49|Haxe|46|
-|50|Batchfile|45|
-|51|Crystal|45|
-|52|PLpgSQL|45|
-|53|Visual Basic|40|
-|54|Cuda|39|
-|55|Objective-C++|38|
-|56|Nim|31|
-|57|Scheme|31|
-|58|ShaderLab|30|
-|59|Roff|28|
-|60|XSLT|28|
-|61|ActionScript|27|
-|62|QML|27|
-|63|Racket|27|
-|64|Verilog|27|
-|65|AutoHotkey|25|
-|66|PureScript|24|
-|67|Smarty|24|
-|68|Processing|22|
-|69|Nix|21|
-|70|GLSL|20|
-|71|WebAssembly|20|
-|72|Fortran|18|
-|73|GDScript|18|
-|74|AppleScript|16|
-|75|Standard ML|16|
-|76|Coq|15|
-|77|PostScript|15|
-|78|ASP|14|
-|79|Mathematica|14|
-|80|Tcl|14|
-|81|Gherkin|13|
-|82|VHDL|13|
-|83|OpenSCAD|12|
-|84|LLVM|11|
-|85|Perl 6|11|
-|86|PLSQL|11|
-|87|Solidity|11|
-|88|Apex|10|
-|89|SystemVerilog|10|
-|90|AutoIt|9|
-|91|ColdFusion|9|
-|92|FreeMarker|9|
-|93|Idris|9|
-|94|Prolog|9|
-|95|Awk|8|
-|96|BitBake|8|
-|97|HLSL|8|
-|98|LiveScript|8|
-|99|Max|8|
-|100|OpenEdge ABL|8|
+|45|HCL|75|
+|46|CMake|64|
+|47|Batchfile|58|
+|48|Crystal|54|
+|49|D|53|
+|50|Haxe|51|
+|51|Vala|50|
+|52|PLpgSQL|48|
+|53|Visual Basic|45|
+|54|Nim|40|
+|55|Cuda|37|
+|56|Scheme|36|
+|57|Roff|35|
+|58|XSLT|34|
+|59|ShaderLab|33|
+|60|Objective-C++|32|
+|61|Verilog|32|
+|62|Fortran|31|
+|63|Racket|30|
+|64|Nix|29|
+|65|PureScript|28|
+|66|QML|28|
+|67|Smarty|27|
+|68|GDScript|26|
+|69|ActionScript|25|
+|70|AutoHotkey|25|
+|71|Coq|25|
+|72|GLSL|25|
+|73|Mathematica|19|
+|74|Processing|19|
+|75|Tcl|18|
+|76|Apex|17|
+|77|ASP|17|
+|78|HLSL|17|
+|79|PostScript|17|
+|80|Standard ML|16|
+|81|VHDL|16|
+|82|OpenSCAD|15|
+|83|YARA|15|
+|84|WebAssembly|14|
+|85|AppleScript|13|
+|86|Prolog|13|
+|87|Solidity|13|
+|88|AutoIt|12|
+|89|Gherkin|12|
+|90|FreeMarker|11|
+|91|Perl 6|11|
+|92|PLSQL|11|
+|93|Smalltalk|11|
+|94|Idris|10|
+|95|LLVM|10|
+|96|OpenEdge ABL|10|
+|97|SystemVerilog|10|
+|98|Awk|9|
+|99|ColdFusion|9|
+|100|LiveScript|8|
 
-
-## Most popular languages on GitHub as of February 18, 2019, counting only repos with at least 1000 stars and any commits pushed since January 1, 2018
-<a name="1000-stars-since-2018" />
-
+## Most popular languages on GitHub as of October 21, 2019, counting only repos with at least 1000 stars and any commits pushed since October 21, 2018
+<a name="1000-stars-active" />
 |#|language|repos count|
 |----|----|----|
-|1|JavaScript|3749|
-|2|Python|1756|
-|3|Java|1629|
-|4|Go|961|
-|5|C++|710|
-|6|PHP|705|
-|7|C|615|
-|8|Ruby|606|
-|9|Swift|530|
-|10|Objective-C|523|
-|11|HTML|449|
-|12|C#|379|
-|13|TypeScript|357|
-|14|Shell|342|
-|15|CSS|297|
-|16|Jupyter Notebook|168|
-|17|Rust|134|
-|18|Kotlin|109|
-|19|Vim script|107|
-|20|Scala|95|
-|21|Vue|79|
-|22|CoffeeScript|66|
-|23|Clojure|64|
-|24|Lua|48|
-|25|Haskell|39|
-|26|TeX|34|
-|27|Emacs Lisp|31|
-|28|Makefile|31|
-|29|Elixir|28|
-|30|Perl|25|
-|31|R|22|
-|32|PowerShell|22|
-|33|Dart|21|
-|34|Erlang|21|
-|35|Dockerfile|19|
-|36|Assembly|16|
-|37|OCaml|15|
-|38|Objective-C++|13|
-|39|Groovy|12|
-|40|Common Lisp|8|
-|41|MATLAB|7|
-|42|Crystal|6|
-|43|Cuda|6|
-|44|F#|6|
-|45|ActionScript|5|
-|46|Elm|5|
-|47|Haxe|5|
-|48|Julia|5|
-|49|Pascal|5|
-|50|Batchfile|4|
-|51|CMake|4|
-|52|PLpgSQL|4|
-|53|Roff|4|
-|54|ASP|3|
-|55|AutoHotkey|3|
-|56|D|3|
-|57|HCL|3|
-|58|Scheme|3|
-|59|Vala|3|
+|1|JavaScript|3887|
+|2|Python|2148|
+|3|Java|1685|
+|4|Go|1199|
+|5|C++|871|
+|6|PHP|797|
+|7|C|713|
+|8|Ruby|594|
+|9|Swift|586|
+|10|TypeScript|567|
+|11|Objective-C|486|
+|12|HTML|463|
+|13|C#|462|
+|14|Shell|404|
+|15|CSS|301|
+|16|Jupyter Notebook|233|
+|17|Rust|204|
+|18|Kotlin|149|
+|19|Vim script|120|
+|20|Scala|105|
+|21|Vue|99|
+|22|Clojure|70|
+|23|Dart|55|
+|24|CoffeeScript|53|
+|25|Haskell|50|
+|26|Lua|50|
+|27|TeX|42|
+|28|PowerShell|38|
+|29|Elixir|36|
+|30|Emacs Lisp|36|
+|31|Makefile|33|
+|32|R|29|
+|33|Perl|28|
+|34|Erlang|25|
+|35|Assembly|22|
+|36|OCaml|21|
+|37|Dockerfile|19|
+|38|Objective-C++|14|
+|39|Groovy|11|
+|40|Common Lisp|9|
+|41|Batchfile|8|
+|42|CMake|7|
+|43|Crystal|7|
+|44|F#|7|
+|45|MATLAB|6|
+|46|Cuda|6|
+|47|D|6|
+|48|Julia|6|
+|49|Vala|6|
+|50|Haxe|5|
+|51|Pascal|5|
+|52|PLpgSQL|5|
+|53|ActionScript|4|
+|54|Elm|4|
+|55|HCL|4|
+|56|Roff|4|
+|57|XSLT|4|
+|58|ASP|3|
+|59|Scheme|3|
 |60|WebAssembly|3|
-|61|XSLT|3|
+|61|YARA|3|
 |62|AppleScript|2|
-|63|DIGITAL Command Language|2|
-|64|Gherkin|2|
-|65|Hack|2|
-|66|Nix|2|
-|67|NSIS|2|
-|68|Perl 6|2|
-|69|Processing|2|
-|70|PureBasic|2|
-|71|QML|2|
-|72|ShaderLab|2|
-|73|Visual Basic|2|
-|74|ANTLR|1|
-|75|Awk|1|
-|76|BitBake|1|
-|77|Bro|1|
-|78|Eagle|1|
-|79|F\*|1|
-|80|Fortran|1|
-|81|Frege|1|
-|82|GCC Machine Description|1|
-|83|GLSL|1|
-|84|IDL|1|
-|85|Inno Setup|1|
-|86|LiveScript|1|
-|87|LLVM|1|
-|88|Mathematica|1|
-|89|Metal|1|
-|90|MoonScript|1|
-|91|Nim|1|
+|63|AutoHotkey|2|
+|64|DIGITAL Command Language|2|
+|65|Gherkin|2|
+|66|GLSL|2|
+|67|Gnuplot|2|
+|68|Hack|2|
+|69|Markdown|2|
+|70|Mathematica|2|
+|71|NSIS|2|
+|72|Perl 6|2|
+|73|PureBasic|2|
+|74|PureScript|2|
+|75|Visual Basic|2|
+|76|ANTLR|1|
+|77|Arc|1|
+|78|Awk|1|
+|79|BitBake|1|
+|80|Bro|1|
+|81|Eagle|1|
+|82|F*|1|
+|83|Fortran|1|
+|84|Frege|1|
+|85|IDL|1|
+|86|Inno Setup|1|
+|87|LiveScript|1|
+|88|LLVM|1|
+|89|MoonScript|1|
+|90|Nim|1|
+|91|Nix|1|
 |92|Objective-J|1|
 |93|Pony|1|
 |94|PostScript|1|
-|95|PureScript|1|
-|96|Racket|1|
-|97|Rascal|1|
-|98|Red|1|
-|99|Ren'Py|1|
-|100|Smali|1|
+|95|Processing|1|
+|96|Protocol Buffer|1|
+|97|QML|1|
+|98|Racket|1|
+|99|Red|1|
+|100|Ren'Py|1|
 
-
-## Most popular languages on GitHub as of February 18, 2019, counting only repos with at least 10000 stars and any commits pushed since January 1, 2018
-<a name="10000-stars-since-2018" />
-
+## Most popular languages on GitHub as of October 21, 2019, counting only repos with at least 10000 stars and any commits pushed since October 21, 2018
+<a name="10000-stars-active" />
 |#|language|repos count|
 |----|----|----|
-|1|JavaScript|340|
-|2|Python|78|
-|3|Java|66|
-|4|Go|58|
-|5|C++|43|
-|6|HTML|28|
-|7|TypeScript|28|
-|8|Objective-C|27|
-|9|Swift|27|
-|10|CSS|23|
-|11|Ruby|22|
-|12|Shell|22|
-|13|C|21|
-|14|PHP|20|
-|15|Vim script|11|
-|16|Kotlin|11|
-|17|Jupyter Notebook|10|
-|18|C#|9|
-|19|Vue|8|
-|20|Rust|6|
-|21|CoffeeScript|5|
-|22|Scala|5|
-|23|Lua|4|
-|24|TeX|4|
+|1|JavaScript|385|
+|2|Python|113|
+|3|Java|101|
+|4|Go|77|
+|5|C++|53|
+|6|TypeScript|46|
+|7|HTML|34|
+|8|C|31|
+|9|Shell|30|
+|10|Swift|30|
+|11|CSS|29|
+|12|Objective-C|29|
+|13|PHP|29|
+|14|Ruby|25|
+|15|Jupyter Notebook|18|
+|16|Vim script|15|
+|17|C#|14|
+|18|Kotlin|12|
+|19|Rust|10|
+|20|Vue|9|
+|21|CoffeeScript|6|
+|22|Scala|6|
+|23|TeX|4|
+|24|Clojure|3|
 |25|Haskell|3|
-|26|Objective-C++|3|
-|27|Clojure|2|
-|28|Assembly|2|
-|29|Dart|2|
-|30|Dockerfile|2|
+|26|Lua|3|
+|27|Dart|3|
+|28|Makefile|3|
+|29|Objective-C++|3|
+|30|Assembly|2|
 |31|Elixir|2|
-|32|Perl|1|
-|33|Batchfile|1|
-|34|Emacs Lisp|1|
-|35|Julia|1|
-|36|Makefile|1|
-|37|OCaml|1|
-|38|Rascal|1|
+|32|OCaml|2|
+|33|Perl|1|
+|34|Batchfile|1|
+|35|Crystal|1|
+|36|Dockerfile|1|
+|37|Emacs Lisp|1|
+|38|Julia|1|
+|39|Markdown|1|
+|40|QML|1|
+|41|Standard ML|1|
+|42|ActionScript|0|
+|43|MATLAB|0|
+|44|R|0|
+|45|1C Enterprise|0|
+|46|ABAP|0|
+|47|ABNF|0|
+|48|Ada|0|
+|49|Adobe Font Metrics|0|
+|50|Agda|0|
+|51|AGS Script|0|
+|52|Alloy|0|
+|53|Alpine Abuild|0|
+|54|AMPL|0|
+|55|AngelScript|0|
+|56|Ant Build System|0|
+|57|ANTLR|0|
+|58|ApacheConf|0|
+|59|Apex|0|
+|60|API Blueprint|0|
+|61|APL|0|
+|62|Apollo Guidance Computer|0|
+|63|AppleScript|0|
+|64|Arc|0|
+|65|AsciiDoc|0|
+|66|ASN.1|0|
+|67|ASP|0|
+|68|AspectJ|0|
+|69|ATS|0|
+|70|Augeas|0|
+|71|AutoHotkey|0|
+|72|AutoIt|0|
+|73|Awk|0|
+|74|Ballerina|0|
+|75|Befunge|0|
+|76|Bison|0|
+|77|BitBake|0|
+|78|Blade|0|
+|79|BlitzBasic|0|
+|80|BlitzMax|0|
+|81|Bluespec|0|
+|82|Boo|0|
+|83|Brainfuck|0|
+|84|Brightscript|0|
+|85|Bro|0|
+|86|C-ObjDump|0|
+|87|C2hs Haskell|0|
+|88|Cap'n Proto|0|
+|89|CartoCSS|0|
+|90|Ceylon|0|
+|91|Chapel|0|
+|92|Charity|0|
+|93|ChucK|0|
+|94|Cirru|0|
+|95|Clarion|0|
+|96|Clean|0|
+|97|Click|0|
+|98|CLIPS|0|
+|99|Closure Templates|0|
+|100|Cloud Firestore Security Rules|0|
 
-
-## Most starred GitHub repositories by language as of February 19, 2019
+## Most starred GitHub repositories by language as of October 21, 2019
 <a name="top-repos-by-language" />
-
+{"JavaScript":[{"html_url":"https://github.com/freeCodeCamp/freeCodeCamp","stargazers_count":305710,"full_name":"freeCodeCamp/freeCodeCamp","description":"The https://www.freeCodeCamp.org open source codebase and curriculum. Learn to code for free together with millions of people."},{"html_url":"https://github.com/vuejs/vue","stargazers_count":150651,"full_name":"vuejs/vue","description":"🖖 Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web."},{"html_url":"https://github.com/facebook/react","stargazers_count":138098,"full_name":"facebook/react","description":"A declarative, efficient, and flexible JavaScript library for building user interfaces."},{"html_url":"https://github.com/twbs/bootstrap","stargazers_count":136412,"full_name":"twbs/bootstrap","description":"The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web."},{"html_url":"https://github.com/airbnb/javascript","stargazers_count":89833,"full_name":"airbnb/javascript","description":"JavaScript Style Guide"}],"Java":[{"html_url":"https://github.com/CyC2018/CS-Notes","stargazers_count":80938,"full_name":"CyC2018/CS-Notes","description":":books: Tech Interview Guide 技术面试必备基础知识、Leetcode 题解、Java、C++、Python、后端面试、操作系统、计算机网络、系统设计"},{"html_url":"https://github.com/Snailclimb/JavaGuide","stargazers_count":58620,"full_name":"Snailclimb/JavaGuide","description":"【Java学习+面试指南】 一份涵盖大部分Java程序员所需要掌握的核心知识。"},{"html_url":"https://github.com/iluwatar/java-design-patterns","stargazers_count":52061,"full_name":"iluwatar/java-design-patterns","description":"Design patterns implemented in Java"},{"html_url":"https://github.com/elastic/elasticsearch","stargazers_count":44898,"full_name":"elastic/elasticsearch","description":"Open Source, Distributed, RESTful Search Engine"},{"html_url":"https://github.com/MisterBooo/LeetCodeAnimation","stargazers_count":42863,"full_name":"MisterBooo/LeetCodeAnimation","description":"Demonstrate all the questions on LeetCode in the form of animation.（用动画的形式呈现解LeetCode题目的思路）"}],"HTML":[{"html_url":"https://github.com/h5bp/Front-end-Developer-Interview-Questions","stargazers_count":42518,"full_name":"h5bp/Front-end-Developer-Interview-Questions","description":"A list of helpful front-end related questions you can use to interview potential candidates, test yourself or completely ignore."},{"html_url":"https://github.com/google/material-design-lite","stargazers_count":31450,"full_name":"google/material-design-lite","description":"Material Design Components in HTML/CSS/JS"},{"html_url":"https://github.com/ColorlibHQ/AdminLTE","stargazers_count":31392,"full_name":"ColorlibHQ/AdminLTE","description":"AdminLTE - Free Premium Admin control Panel Theme Based On Bootstrap 3.x"},{"html_url":"https://github.com/foundation/foundation-sites","stargazers_count":28314,"full_name":"foundation/foundation-sites","description":"The most advanced responsive front-end framework in the world. Quickly create prototypes and production code for sites that work on any kind of device."},{"html_url":"https://github.com/ariya/phantomjs","stargazers_count":27090,"full_name":"ariya/phantomjs","description":"Scriptable Headless Browser"}],"Python":[{"html_url":"https://github.com/donnemartin/system-design-primer","stargazers_count":75163,"full_name":"donnemartin/system-design-primer","description":"Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards."},{"html_url":"https://github.com/vinta/awesome-python","stargazers_count":74452,"full_name":"vinta/awesome-python","description":"A curated list of awesome Python frameworks, libraries, software and resources"},{"html_url":"https://github.com/public-apis/public-apis","stargazers_count":63910,"full_name":"public-apis/public-apis","description":"A collective list of free APIs for use in software and web development."},{"html_url":"https://github.com/tensorflow/models","stargazers_count":58569,"full_name":"tensorflow/models","description":"Models and examples built with TensorFlow"},{"html_url":"https://github.com/ytdl-org/youtube-dl","stargazers_count":56816,"full_name":"ytdl-org/youtube-dl","description":"Command-line program to download videos from YouTube.com and other video sites"}],"PHP":[{"html_url":"https://github.com/laravel/laravel","stargazers_count":55714,"full_name":"laravel/laravel","description":"A PHP framework for web artisans"},{"html_url":"https://github.com/blueimp/jQuery-File-Upload","stargazers_count":30324,"full_name":"blueimp/jQuery-File-Upload","description":"File Upload widget with multiple file selection, drag&drop support, progress bar, validation and preview images, audio and video for jQuery. Supports cross-domain, chunked and resumable file uploads. Works with any server-side platform (Google App Engine, PHP, Python, Ruby on Rails, Java, etc.) that supports standard HTML form file uploads."},{"html_url":"https://github.com/fzaninotto/Faker","stargazers_count":22204,"full_name":"fzaninotto/Faker","description":"Faker is a PHP library that generates fake data for you"},{"html_url":"https://github.com/symfony/symfony","stargazers_count":21899,"full_name":"symfony/symfony","description":"The Symfony PHP framework"},{"html_url":"https://github.com/composer/composer","stargazers_count":21264,"full_name":"composer/composer","description":"Dependency Manager for PHP"}]}
+{"CSS":[{"html_url":"https://github.com/daneden/animate.css","stargazers_count":62625,"full_name":"daneden/animate.css","description":"🍿 A cross-browser library of CSS animations. As easy to use as an easy thing."},{"html_url":"https://github.com/google/material-design-icons","stargazers_count":39071,"full_name":"google/material-design-icons","description":"Material Design icons by Google"},{"html_url":"https://github.com/jgthms/bulma","stargazers_count":37100,"full_name":"jgthms/bulma","description":"Modern CSS framework based on Flexbox"},{"html_url":"https://github.com/necolas/normalize.css","stargazers_count":36602,"full_name":"necolas/normalize.css","description":"A modern alternative to CSS resets"},{"html_url":"https://github.com/FreeCodeCampChina/freecodecamp.cn","stargazers_count":36493,"full_name":"FreeCodeCampChina/freecodecamp.cn","description":"The FreeCodeCamp.cn(FCC China) open source codebase and curriculum. Learn to code and help nonprofits."}],"C#":[{"html_url":"https://github.com/shadowsocks/shadowsocks-windows","stargazers_count":43869,"full_name":"shadowsocks/shadowsocks-windows","description":"If you want to keep a secret, you must also hide it from yourself."},{"html_url":"https://github.com/CodeHubApp/CodeHub","stargazers_count":21795,"full_name":"CodeHubApp/CodeHub","description":"CodeHub is an iOS application written using Xamarin"},{"html_url":"https://github.com/dotnet/corefx","stargazers_count":17611,"full_name":"dotnet/corefx","description":"CoreFX is the foundational class libraries for .NET Core. It includes types for collections, file systems, console, JSON, XML, async and many others."},{"html_url":"https://github.com/PowerShell/PowerShell","stargazers_count":16139,"full_name":"PowerShell/PowerShell","description":"PowerShell for every system!"},{"html_url":"https://github.com/Wox-launcher/Wox","stargazers_count":14712,"full_name":"Wox-launcher/Wox","description":"Launcher for Windows, an alternative to Alfred and Launchy."}],"Ruby":[{"html_url":"https://github.com/rails/rails","stargazers_count":44358,"full_name":"rails/rails","description":"Ruby on Rails"},{"html_url":"https://github.com/jekyll/jekyll","stargazers_count":38928,"full_name":"jekyll/jekyll","description":":globe_with_meridians: Jekyll is a blog-aware static site generator in Ruby"},{"html_url":"https://github.com/discourse/discourse","stargazers_count":29250,"full_name":"discourse/discourse","description":"A platform for community discussion. Free, open, simple."},{"html_url":"https://github.com/fastlane/fastlane","stargazers_count":27161,"full_name":"fastlane/fastlane","description":"🚀 The easiest way to automate building and releasing your iOS and Android apps"},{"html_url":"https://github.com/bayandin/awesome-awesomeness","stargazers_count":25091,"full_name":"bayandin/awesome-awesomeness","description":"A curated list of awesome awesomeness"}],"C++":[{"html_url":"https://github.com/tensorflow/tensorflow","stargazers_count":136232,"full_name":"tensorflow/tensorflow","description":"An Open Source Machine Learning Framework for Everyone"},{"html_url":"https://github.com/electron/electron","stargazers_count":77757,"full_name":"electron/electron","description":":electron: Build cross-platform desktop apps with JavaScript, HTML, and CSS"},{"html_url":"https://github.com/microsoft/terminal","stargazers_count":53344,"full_name":"microsoft/terminal","description":"The new Windows Terminal, and the original Windows console host - all in the same place!"},{"html_url":"https://github.com/apple/swift","stargazers_count":49446,"full_name":"apple/swift","description":"The Swift Programming Language"},{"html_url":"https://github.com/bitcoin/bitcoin","stargazers_count":40486,"full_name":"bitcoin/bitcoin","description":"Bitcoin Core integration/staging tree"}],"C":[{"html_url":"https://github.com/torvalds/linux","stargazers_count":81658,"full_name":"torvalds/linux","description":"Linux kernel source tree"},{"html_url":"https://github.com/netdata/netdata","stargazers_count":41860,"full_name":"netdata/netdata","description":"Real-time performance monitoring, done right! https://my-netdata.io/"},{"html_url":"https://github.com/antirez/redis","stargazers_count":39239,"full_name":"antirez/redis","description":"Redis is an in-memory database that persists on disk. The data model is key-value, but many different kind of values are supported: Strings, Lists, Sets, Sorted Sets, Hashes, Streams, HyperLogLogs, Bitmaps."},{"html_url":"https://github.com/git/git","stargazers_count":29756,"full_name":"git/git","description":"Git Source Code Mirror - This is a publish-only repository and all pull requests are ignored. Please follow Documentation/SubmittingPatches procedure for any of your improvements."},{"html_url":"https://github.com/php/php-src","stargazers_count":25238,"full_name":"php/php-src","description":"The PHP Interpreter"}]}
+{"Shell":[{"html_url":"https://github.com/robbyrussell/oh-my-zsh","stargazers_count":97095,"full_name":"robbyrussell/oh-my-zsh","description":"🙃 A delightful community-driven (with 1,300+ contributors) framework for managing your zsh configuration. Includes 200+ optional plugins (rails, git, OSX, hub, capistrano, brew, ant, php, python, etc), over 140 themes to spice up your morning, and an auto-update tool so that makes it easy to keep up with the latest updates from the community."},{"html_url":"https://github.com/nvm-sh/nvm","stargazers_count":37625,"full_name":"nvm-sh/nvm","description":"Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions"},{"html_url":"https://github.com/open-guides/og-aws","stargazers_count":25034,"full_name":"open-guides/og-aws","description":"📙 Amazon Web Services — a practical guide"},{"html_url":"https://github.com/shengxinjing/programmer-job-blacklist","stargazers_count":24366,"full_name":"shengxinjing/programmer-job-blacklist","description":":see_no_evil:程序员找工作黑名单，换工作和当技术合伙人需谨慎啊 更新有赞"},{"html_url":"https://github.com/nvie/gitflow","stargazers_count":23030,"full_name":"nvie/gitflow","description":"Git extensions to provide high-level repository operations for Vincent Driessen's branching model."}],"Jupyter Notebook":[{"html_url":"https://github.com/jackfrued/Python-100-Days","stargazers_count":65110,"full_name":"jackfrued/Python-100-Days","description":"Python - 100天从新手到大师"},{"html_url":"https://github.com/TheAlgorithms/Python","stargazers_count":60023,"full_name":"TheAlgorithms/Python","description":"All Algorithms implemented in Python"},{"html_url":"https://github.com/aymericdamien/TensorFlow-Examples","stargazers_count":34868,"full_name":"aymericdamien/TensorFlow-Examples","description":"TensorFlow Tutorial and Examples for Beginners (support TF v1 & v2)"},{"html_url":"https://github.com/practicalAI/practicalAI","stargazers_count":20942,"full_name":"practicalAI/practicalAI","description":"📚 A practical approach to machine learning. "},{"html_url":"https://github.com/jakevdp/PythonDataScienceHandbook","stargazers_count":20418,"full_name":"jakevdp/PythonDataScienceHandbook","description":"Python Data Science Handbook: full text in Jupyter Notebooks"}],"TypeScript":[{"html_url":"https://github.com/microsoft/vscode","stargazers_count":84798,"full_name":"microsoft/vscode","description":"Visual Studio Code"},{"html_url":"https://github.com/microsoft/TypeScript","stargazers_count":54910,"full_name":"microsoft/TypeScript","description":"TypeScript is a superset of JavaScript that compiles to clean JavaScript output."},{"html_url":"https://github.com/angular/angular","stargazers_count":53112,"full_name":"angular/angular","description":"One framework. Mobile & desktop."},{"html_url":"https://github.com/ant-design/ant-design","stargazers_count":52671,"full_name":"ant-design/ant-design","description":"🌈 A UI Design Language and React UI library"},{"html_url":"https://github.com/reduxjs/redux","stargazers_count":51038,"full_name":"reduxjs/redux","description":"Predictable state container for JavaScript apps"}],"Swift":[{"html_url":"https://github.com/vsouza/awesome-ios","stargazers_count":33246,"full_name":"vsouza/awesome-ios","description":"A curated list of awesome iOS ecosystem, including Objective-C and Swift Projects "},{"html_url":"https://github.com/Alamofire/Alamofire","stargazers_count":32161,"full_name":"Alamofire/Alamofire","description":"Elegant HTTP Networking in Swift"},{"html_url":"https://github.com/shadowsocks/ShadowsocksX-NG","stargazers_count":24561,"full_name":"shadowsocks/ShadowsocksX-NG","description":"Next Generation of ShadowsocksX"},{"html_url":"https://github.com/danielgindi/Charts","stargazers_count":21783,"full_name":"danielgindi/Charts","description":"Beautiful charts for iOS/tvOS/OSX! The Apple side of the crossplatform MPAndroidChart."},{"html_url":"https://github.com/raywenderlich/swift-algorithm-club","stargazers_count":21560,"full_name":"raywenderlich/swift-algorithm-club","description":"Algorithms and data structures in Swift, with explanations!"}],"Objective-C":[{"html_url":"https://github.com/AFNetworking/AFNetworking","stargazers_count":32416,"full_name":"AFNetworking/AFNetworking","description":"A delightful networking framework for iOS, macOS, watchOS, and tvOS."},{"html_url":"https://github.com/SDWebImage/SDWebImage","stargazers_count":22026,"full_name":"SDWebImage/SDWebImage","description":"Asynchronous image downloader with cache support as a UIImageView category"},{"html_url":"https://github.com/BradLarson/GPUImage","stargazers_count":18885,"full_name":"BradLarson/GPUImage","description":"An open source iOS framework for GPU-based image and video processing"},{"html_url":"https://github.com/SnapKit/Masonry","stargazers_count":17545,"full_name":"SnapKit/Masonry","description":"Harness the power of AutoLayout NSLayoutConstraints with a simplified, chainable and expressive syntax. Supports iOS and OSX Auto Layout"},{"html_url":"https://github.com/jdg/MBProgressHUD","stargazers_count":15431,"full_name":"jdg/MBProgressHUD","description":"MBProgressHUD + Customizations"}]}
+{"Go":[{"html_url":"https://github.com/golang/go","stargazers_count":64827,"full_name":"golang/go","description":"The Go programming language"},{"html_url":"https://github.com/kubernetes/kubernetes","stargazers_count":59066,"full_name":"kubernetes/kubernetes","description":"Production-Grade Container Scheduling and Management"},{"html_url":"https://github.com/moby/moby","stargazers_count":55198,"full_name":"moby/moby","description":"Moby Project - a collaborative project for the container ecosystem to assemble container-based systems"},{"html_url":"https://github.com/avelino/awesome-go","stargazers_count":48802,"full_name":"avelino/awesome-go","description":"A curated list of awesome Go frameworks, libraries and software"},{"html_url":"https://github.com/getlantern/lantern","stargazers_count":45931,"full_name":"getlantern/lantern","description":"蓝灯Windows下载 https://raw.githubusercontent.com/getlantern/lantern-binaries/master/lantern-installer.exe 蓝灯安卓下载 https://raw.githubusercontent.com/getlantern/lantern-binaries/master/lantern-installer.apk"}],"R":[{"html_url":"https://github.com/tidyverse/ggplot2","stargazers_count":4062,"full_name":"tidyverse/ggplot2","description":"An implementation of the Grammar of Graphics in R"},{"html_url":"https://github.com/qinwf/awesome-R","stargazers_count":3721,"full_name":"qinwf/awesome-R","description":"A curated list of awesome R packages, frameworks and software."},{"html_url":"https://github.com/rstudio/shiny","stargazers_count":3581,"full_name":"rstudio/shiny","description":"Easy interactive web applications with R"},{"html_url":"https://github.com/johnmyleswhite/ML_for_Hackers","stargazers_count":3535,"full_name":"johnmyleswhite/ML_for_Hackers","description":"Code accompanying the book \"Machine Learning for Hackers\""},{"html_url":"https://github.com/tidyverse/dplyr","stargazers_count":3097,"full_name":"tidyverse/dplyr","description":"dplyr: A grammar of data manipulation"}],"Vue":[{"html_url":"https://github.com/PanJiaChen/vue-element-admin","stargazers_count":43414,"full_name":"PanJiaChen/vue-element-admin","description":":tada: A magical vue admin                                                                https://panjiachen.github.io/vue-element-admin"},{"html_url":"https://github.com/ElemeFE/element","stargazers_count":41701,"full_name":"ElemeFE/element","description":"A Vue.js 2.0 UI Toolkit for Web"},{"html_url":"https://github.com/bailicangdu/vue2-elm","stargazers_count":30241,"full_name":"bailicangdu/vue2-elm","description":"基于 vue2 + vuex 构建一个具有 45 个页面的大型单页面应用"},{"html_url":"https://github.com/iview/iview","stargazers_count":22670,"full_name":"iview/iview","description":"A high quality UI Toolkit built on Vue.js 2.0"},{"html_url":"https://github.com/tipsy/profile-summary-for-github","stargazers_count":18911,"full_name":"tipsy/profile-summary-for-github","description":"Tool for visualizing GitHub profiles"}],"Kotlin":[{"html_url":"https://github.com/android/architecture-samples","stargazers_count":34533,"full_name":"android/architecture-samples","description":"A collection of samples to discuss and showcase different architectural tools and patterns for Android apps."},{"html_url":"https://github.com/JetBrains/kotlin","stargazers_count":29402,"full_name":"JetBrains/kotlin","description":"The Kotlin Programming Language"},{"html_url":"https://github.com/shadowsocks/shadowsocks-android","stargazers_count":26973,"full_name":"shadowsocks/shadowsocks-android","description":"A shadowsocks client for Android"},{"html_url":"https://github.com/square/leakcanary","stargazers_count":23784,"full_name":"square/leakcanary","description":"LeakCanary is a memory leak detection library for Android."},{"html_url":"https://github.com/google/iosched","stargazers_count":19199,"full_name":"google/iosched","description":"The Google I/O 2019 Android App"}],"MATLAB":[{"html_url":"https://github.com/luanfujun/deep-photo-styletransfer","stargazers_count":9341,"full_name":"luanfujun/deep-photo-styletransfer","description":"Code and data for paper \"Deep Photo Style Transfer\": https://arxiv.org/abs/1703.07511 "},{"html_url":"https://github.com/PRML/PRMLT","stargazers_count":4276,"full_name":"PRML/PRMLT","description":"Matlab code for machine learning algorithms in book PRML"},{"html_url":"https://github.com/TadasBaltrusaitis/OpenFace","stargazers_count":3955,"full_name":"TadasBaltrusaitis/OpenFace","description":"OpenFace – a state-of-the art tool intended for facial landmark detection, head pose estimation, facial action unit recognition, and eye-gaze estimation."},{"html_url":"https://github.com/rasmusbergpalm/DeepLearnToolbox","stargazers_count":3377,"full_name":"rasmusbergpalm/DeepLearnToolbox","description":"Matlab/Octave toolbox for deep learning. Includes Deep Belief Nets, Stacked Autoencoders, Convolutional Neural Nets, Convolutional Autoencoders and vanilla Neural Nets. Each method has examples to get you started."},{"html_url":"https://github.com/ShaoqingRen/faster_rcnn","stargazers_count":2167,"full_name":"ShaoqingRen/faster_rcnn","description":"Faster R-CNN"}]}
+{"Dockerfile":[{"html_url":"https://github.com/kelseyhightower/nocode","stargazers_count":32234,"full_name":"kelseyhightower/nocode","description":"The best way to write secure and reliable applications. Write nothing; deploy nowhere."},{"html_url":"https://github.com/jessfraz/dockerfiles","stargazers_count":9082,"full_name":"jessfraz/dockerfiles","description":"Various Dockerfiles I use on the desktop and on servers."},{"html_url":"https://github.com/laradock/laradock","stargazers_count":8413,"full_name":"laradock/laradock","description":"The most popular full PHP development environment on Docker."},{"html_url":"https://github.com/nodejs/docker-node","stargazers_count":4909,"full_name":"nodejs/docker-node","description":"Official Docker Image for Node.js :whale: :turtle: :rocket: "},{"html_url":"https://github.com/SeleniumHQ/docker-selenium","stargazers_count":3574,"full_name":"SeleniumHQ/docker-selenium","description":"Docker images for Selenium Grid Server (Standalone, Hub, and Nodes)."}],"Dart":[{"html_url":"https://github.com/flutter/flutter","stargazers_count":77586,"full_name":"flutter/flutter","description":"Flutter makes it easy and fast to build beautiful mobile apps."},{"html_url":"https://github.com/Solido/awesome-flutter","stargazers_count":22781,"full_name":"Solido/awesome-flutter","description":"An awesome list that curates the best Flutter libraries, tools, tutorials, articles and more."},{"html_url":"https://github.com/alibaba/flutter-go","stargazers_count":17634,"full_name":"alibaba/flutter-go","description":"flutter 开发者帮助 APP，包含 flutter 常用 140+ 组件的demo 演示与中文文档"},{"html_url":"https://github.com/CarGuo/gsy_github_app_flutter","stargazers_count":8977,"full_name":"CarGuo/gsy_github_app_flutter","description":"超完整的Flutter项目，功能丰富，适合学习和日常使用。GSYGithubApp系列的优势：我们目前已经拥有Flutter、Weex、ReactNative、kotlin 四个版本。 功能齐全，项目框架内技术涉及面广，完成度高，持续维护，配套文章，适合全面学习，对比参考。跨平台的开源Github客户端App，更好的体验，更丰富的功能，旨在更好的日常管理和维护个人Github，提供更好更方便的驾车体验Σ(￣。￣ﾉ)ﾉ。同款Weex版本 ： https://github.com/CarGuo/GSYGithubAppWeex    、同款React Native版本 ： https://github.com/CarGuo/GSYGithubApp 、原生 kotlin 版本 https://github.com/CarGuo/GSYGithubAppKotlin"},{"html_url":"https://github.com/flutter/plugins","stargazers_count":8477,"full_name":"flutter/plugins","description":"Plugins for Flutter maintained by the Flutter team"}],"Rust":[{"html_url":"https://github.com/996icu/996.ICU","stargazers_count":247494,"full_name":"996icu/996.ICU","description":"Repo for counting stars and contributing. Press F to pay respect to glorious developers."},{"html_url":"https://github.com/rust-lang/rust","stargazers_count":39769,"full_name":"rust-lang/rust","description":"Empowering everyone to build reliable and efficient software."},{"html_url":"https://github.com/jwilm/alacritty","stargazers_count":18736,"full_name":"jwilm/alacritty","description":"A cross-platform, GPU-accelerated terminal emulator"},{"html_url":"https://github.com/xi-editor/xi-editor","stargazers_count":16818,"full_name":"xi-editor/xi-editor","description":"A modern editor with a backend written in Rust."},{"html_url":"https://github.com/BurntSushi/ripgrep","stargazers_count":16575,"full_name":"BurntSushi/ripgrep","description":"ripgrep recursively searches directories for a regex pattern"}],"Scala":[{"html_url":"https://github.com/apache/spark","stargazers_count":23899,"full_name":"apache/spark","description":"Apache Spark"},{"html_url":"https://github.com/prisma/prisma","stargazers_count":15919,"full_name":"prisma/prisma","description":"💾 Database Tools incl. ORM, Migrations and Admin UI (Postgres, MySQL & MongoDB)"},{"html_url":"https://github.com/scala/scala","stargazers_count":12195,"full_name":"scala/scala","description":"The Scala programming language"},{"html_url":"https://github.com/apache/predictionio","stargazers_count":12131,"full_name":"apache/predictionio","description":"PredictionIO, a machine learning server for developers and ML engineers."},{"html_url":"https://github.com/playframework/playframework","stargazers_count":11359,"full_name":"playframework/playframework","description":"Play Framework"}],"Vim script":[{"html_url":"https://github.com/neovim/neovim","stargazers_count":33637,"full_name":"neovim/neovim","description":"Vim-fork focused on extensibility and usability"},{"html_url":"https://github.com/VundleVim/Vundle.vim","stargazers_count":20429,"full_name":"VundleVim/Vundle.vim","description":"Vundle, the plug-in manager for Vim"},{"html_url":"https://github.com/amix/vimrc","stargazers_count":19419,"full_name":"amix/vimrc","description":"The ultimate Vim configuration: vimrc"},{"html_url":"https://github.com/vim/vim","stargazers_count":18125,"full_name":"vim/vim","description":"The official Vim repository"},{"html_url":"https://github.com/junegunn/vim-plug","stargazers_count":16338,"full_name":"junegunn/vim-plug","description":":hibiscus: Minimalist Vim Plugin Manager"}]}
 |language|#1|#2|#3|#4|#5|
 |----|----|----|----|----|----|
-|JavaScript|[freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) (297421) The https://www.freeCodeCamp.org open source codebase and curriculum. Learn to code for free together with millions of people.|[twbs/bootstrap](https://github.com/twbs/bootstrap) (130917) The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web.|[vuejs/vue](https://github.com/vuejs/vue) (128192) 🖖 Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web.|[facebook/react](https://github.com/facebook/react) (122635) A declarative, efficient, and flexible JavaScript library for building user interfaces.|[d3/d3](https://github.com/d3/d3) (82469) Bring data to life with SVG, Canvas and HTML. :bar_chart::chart_with_upwards_trend::tada:|
-|Java|[iluwatar/java-design-patterns](https://github.com/iluwatar/java-design-patterns) (44602) Design patterns implemented in Java|[elastic/elasticsearch](https://github.com/elastic/elasticsearch) (38440) Open Source, Distributed, RESTful Search Engine|[ReactiveX/RxJava](https://github.com/ReactiveX/RxJava) (37651) RxJava – Reactive Extensions for the JVM – a library for composing asynchronous and event-based programs using observable sequences for the Java VM.|[spring-projects/spring-boot](https://github.com/spring-projects/spring-boot) (34250) Spring Boot|[kdn251/interviews](https://github.com/kdn251/interviews) (32488) Everything you need to know to get the job.|
-|HTML|[h5bp/Front-end-Developer-Interview-Questions](https://github.com/h5bp/Front-end-Developer-Interview-Questions) (39239) A list of helpful front-end related questions you can use to interview potential candidates, test yourself or completely ignore.|[ionic-team/ionic](https://github.com/ionic-team/ionic) (37016) Build amazing native and progressive web apps with open web technologies. One app running on everything 🎉|[google/material-design-lite](https://github.com/google/material-design-lite) (31028) Material Design Components in HTML/CSS/JS|[zurb/foundation-sites](https://github.com/zurb/foundation-sites) (27981) The most advanced responsive front-end framework in the world. Quickly create prototypes and production code for sites that work on any kind of device.|[almasaeed2010/AdminLTE](https://github.com/almasaeed2010/AdminLTE) (26999) AdminLTE - Free Premium Admin control Panel Theme Based On Bootstrap 3.x|
-|Python|[vinta/awesome-python](https://github.com/vinta/awesome-python) (62164) A curated list of awesome Python frameworks, libraries, software and resources|[donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer) (57397) Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.|[toddmotto/public-apis](https://github.com/toddmotto/public-apis) (51368) A collective list of free APIs for use in software and web development.|[tensorflow/models](https://github.com/tensorflow/models) (48467) Models and examples built with TensorFlow|[rg3/youtube-dl](https://github.com/rg3/youtube-dl) (47337) Command-line program to download videos from YouTube.com and other video sites|
-|PHP|[laravel/laravel](https://github.com/laravel/laravel) (49879) A PHP framework for web artisans|[symfony/symfony](https://github.com/symfony/symfony) (19887) The Symfony PHP framework|[fzaninotto/Faker](https://github.com/fzaninotto/Faker) (19482) Faker is a PHP library that generates fake data for you|[composer/composer](https://github.com/composer/composer) (18464) Dependency Manager for PHP|[bcit-ci/CodeIgniter](https://github.com/bcit-ci/CodeIgniter) (16989) Open Source PHP Framework (originally from EllisLab)|
-|CSS|[daneden/animate.css](https://github.com/daneden/animate.css) (57455) 🍿 A cross-browser library of CSS animations. As easy to use as an easy thing.|[google/material-design-icons](https://github.com/google/material-design-icons) (37177) Material Design icons by Google|[necolas/normalize.css](https://github.com/necolas/normalize.css) (34013) A modern alternative to CSS resets|[jgthms/bulma](https://github.com/jgthms/bulma) (33011) Modern CSS framework based on Flexbox|[FreeCodeCampChina/freecodecamp.cn](https://github.com/FreeCodeCampChina/freecodecamp.cn) (31491) The FreeCodeCamp.cn(FCC China) open source codebase and curriculum. Learn to code and help nonprofits.|
-|Ruby|[rails/rails](https://github.com/rails/rails) (42204) Ruby on Rails|[jekyll/jekyll](https://github.com/jekyll/jekyll) (36876) :globe_with_meridians: Jekyll is a blog-aware static site generator in Ruby|[discourse/discourse](https://github.com/discourse/discourse) (27457) A platform for community discussion. Free, open, simple.|[fastlane/fastlane](https://github.com/fastlane/fastlane) (24560) 🚀 The easiest way to automate building and releasing your iOS and Android apps|[bayandin/awesome-awesomeness](https://github.com/bayandin/awesome-awesomeness) (23691) A curated list of awesome awesomeness|
-|C#|[shadowsocks/shadowsocks-windows](https://github.com/shadowsocks/shadowsocks-windows) (33169) If you want to keep a secret, you must also hide it from yourself.|[CodeHubApp/CodeHub](https://github.com/CodeHubApp/CodeHub) (18850) CodeHub is an iOS application written using Xamarin|[dotnet/corefx](https://github.com/dotnet/corefx) (15769) CoreFX is the foundational class libraries for .NET Core. It includes types for collections, file systems, console, JSON, XML, async and many others.|[PowerShell/PowerShell](https://github.com/PowerShell/PowerShell) (12481) PowerShell for every system!|[Wox-launcher/Wox](https://github.com/Wox-launcher/Wox) (12236) Launcher for Windows, an alternative to Alfred and Launchy.|
-|C++|[tensorflow/tensorflow](https://github.com/tensorflow/tensorflow) (120833) An Open Source Machine Learning Framework for Everyone|[electron/electron](https://github.com/electron/electron) (70116) :electron: Build cross-platform desktop apps with JavaScript, HTML, and CSS|[apple/swift](https://github.com/apple/swift) (46680) The Swift Programming Language|[bitcoin/bitcoin](https://github.com/bitcoin/bitcoin) (37166) Bitcoin Core integration/staging tree|[nwjs/nw.js](https://github.com/nwjs/nw.js) (35025) Call all Node.js modules directly from DOM/WebWorker and enable a new way of writing applications with all Web technologies.|
-|C|[torvalds/linux](https://github.com/torvalds/linux) (69504) Linux kernel source tree|[netdata/netdata](https://github.com/netdata/netdata) (35650) Real-time performance monitoring, done right! https://my-netdata.io/|[antirez/redis](https://github.com/antirez/redis) (34350) Redis is an in-memory database that persists on disk. The data model is key-value, but many different kind of values are supported: Strings, Lists, Sets, Sorted Sets, Hashes, HyperLogLogs, Bitmaps.|[git/git](https://github.com/git/git) (26129) Git Source Code Mirror - This is a publish-only repository and all pull requests are ignored. Please follow Documentation/SubmittingPatches procedure for any of your improvements.|[bilibili/ijkplayer](https://github.com/bilibili/ijkplayer) (22127) Android/iOS video player based on FFmpeg n3.4, with MediaCodec, VideoToolbox support.|
-|Shell|[robbyrussell/oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) (83507) A delightful community-driven (with 1,200+ contributors) framework for managing your zsh configuration. Includes 200+ optional plugins (rails, git, OSX, hub, capistrano, brew, ant, php, python, etc), over 140 themes to spice up your morning, and an auto-update tool so that makes it easy to keep up with the latest updates from the community.|[creationix/nvm](https://github.com/creationix/nvm) (32846) Node Version Manager - Simple bash script to manage multiple active node.js versions|[open-guides/og-aws](https://github.com/open-guides/og-aws) (23192) 📙 Amazon Web Services — a practical guide|[nvie/gitflow](https://github.com/nvie/gitflow) (21759) Git extensions to provide high-level repository operations for Vincent Driessen's branching model.|[mathiasbynens/dotfiles](https://github.com/mathiasbynens/dotfiles) (20916) :wrench: .files, including ~/.macos — sensible hacker defaults for macOS|
-|TypeScript|[Microsoft/vscode](https://github.com/Microsoft/vscode) (69445) Visual Studio Code|[angular/angular](https://github.com/angular/angular) (45388) One framework. Mobile & desktop.|[Microsoft/TypeScript](https://github.com/Microsoft/TypeScript) (45215) TypeScript is a superset of JavaScript that compiles to clean JavaScript output.|[ant-design/ant-design](https://github.com/ant-design/ant-design) (42611) 🌈 A UI Design Language|[denoland/deno](https://github.com/denoland/deno) (31206) A new way to JavaScript|
-|Jupyter Notebook|[aymericdamien/TensorFlow-Examples](https://github.com/aymericdamien/TensorFlow-Examples) (29248) TensorFlow Tutorial and Examples for Beginners with Latest APIs|[CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers](https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers) (17176) aka "Bayesian Methods for Hackers": An introduction to Bayesian methods + probabilistic programming with a computation/understanding-first, mathematics-second point of view. All in pure Python ;)  |[GokuMohandas/practicalAI](https://github.com/GokuMohandas/practicalAI) (15635) 📚A practical approach to learning and using machine learning.|[jakevdp/PythonDataScienceHandbook](https://github.com/jakevdp/PythonDataScienceHandbook) (13923) Python Data Science Handbook: full text in Jupyter Notebooks|[ageron/handson-ml](https://github.com/ageron/handson-ml) (12372) A series of Jupyter notebooks that walk you through the fundamentals of Machine Learning and Deep Learning in python using Scikit-Learn and TensorFlow.|
-|Objective-C|[AFNetworking/AFNetworking](https://github.com/AFNetworking/AFNetworking) (31907) A delightful networking framework for iOS, macOS, watchOS, and tvOS.|[SDWebImage/SDWebImage](https://github.com/SDWebImage/SDWebImage) (21058) Asynchronous image downloader with cache support as a UIImageView category|[BradLarson/GPUImage](https://github.com/BradLarson/GPUImage) (18323) An open source iOS framework for GPU-based image and video processing|[SnapKit/Masonry](https://github.com/SnapKit/Masonry) (17129) Harness the power of AutoLayout NSLayoutConstraints with a simplified, chainable and expressive syntax. Supports iOS and OSX Auto Layout|[airbnb/lottie-ios](https://github.com/airbnb/lottie-ios) (16222) An iOS library to natively render After Effects vector animations|
-|Swift|[Alamofire/Alamofire](https://github.com/Alamofire/Alamofire) (30170) Elegant HTTP Networking in Swift|[vsouza/awesome-ios](https://github.com/vsouza/awesome-ios) (29769) A curated list of awesome iOS ecosystem, including Objective-C and Swift Projects |[danielgindi/Charts](https://github.com/danielgindi/Charts) (20298) Beautiful charts for iOS/tvOS/OSX! The Apple side of the crossplatform MPAndroidChart.|[raywenderlich/swift-algorithm-club](https://github.com/raywenderlich/swift-algorithm-club) (19556) Algorithms and data structures in Swift, with explanations!|[ReactiveCocoa/ReactiveCocoa](https://github.com/ReactiveCocoa/ReactiveCocoa) (19324) Streams of values over time|
-|Go|[golang/go](https://github.com/golang/go) (53334) The Go programming language|[moby/moby](https://github.com/moby/moby) (52199) Moby Project - a collaborative project for the container ecosystem to assemble container-based systems|[kubernetes/kubernetes](https://github.com/kubernetes/kubernetes) (48378) Production-Grade Container Scheduling and Management|[getlantern/lantern](https://github.com/getlantern/lantern) (40284) 🔴蓝灯最新版本下载 https://github.com/getlantern/download 🔴 Lantern Latest Download https://github.com/getlantern/download 🔴|[avelino/awesome-go](https://github.com/avelino/awesome-go) (40014) A curated list of awesome Go frameworks, libraries and software|
-|R|[tidyverse/ggplot2](https://github.com/tidyverse/ggplot2) (3618) An implementation of the Grammar of Graphics in R|[johnmyleswhite/ML_for_Hackers](https://github.com/johnmyleswhite/ML_for_Hackers) (3462) Code accompanying the book "Machine Learning for Hackers"|[qinwf/awesome-R](https://github.com/qinwf/awesome-R) (3354) A curated list of awesome R packages, frameworks and software.|[rstudio/shiny](https://github.com/rstudio/shiny) (3264) Easy interactive web applications with R|[swirldev/swirl_courses](https://github.com/swirldev/swirl_courses) (2825) :mortar_board: A collection of interactive courses for the swirl R package.|
-|MATLAB|[luanfujun/deep-photo-styletransfer](https://github.com/luanfujun/deep-photo-styletransfer) (8785) Code and data for paper "Deep Photo Style Transfer": https://arxiv.org/abs/1703.07511 |[PRML/PRMLT](https://github.com/PRML/PRMLT) (3693) Matlab code for machine learning algorithms in book PRML|[rasmusbergpalm/DeepLearnToolbox](https://github.com/rasmusbergpalm/DeepLearnToolbox) (3215) Matlab/Octave toolbox for deep learning. Includes Deep Belief Nets, Stacked Autoencoders, Convolutional Neural Nets, Convolutional Autoencoders and vanilla Neural Nets. Each method has examples to get you started.|[zk00006/OpenTLD](https://github.com/zk00006/OpenTLD) (2030) OpenTLD is an open source library for real-time 2D tracking of a single object in video. This repository is no longer under development. For latest version see: http://www.tldvision.com/tld2.html|[ShaoqingRen/faster_rcnn](https://github.com/ShaoqingRen/faster_rcnn) (1962) Faster R-CNN|
-|Scala|[apache/spark](https://github.com/apache/spark) (20630) Apache Spark|[prisma/prisma](https://github.com/prisma/prisma) (12698) ⚡️ Prisma enables seamless type-safe database access & declarative data modeling|[apache/predictionio](https://github.com/apache/predictionio) (11661) PredictionIO, a machine learning server for developers and ML engineers. Built on Apache Spark, HBase and Spray.|[scala/scala](https://github.com/scala/scala) (11271) The Scala programming language|[playframework/playframework](https://github.com/playframework/playframework) (10963) Play Framework|
-|Perl|[so-fancy/diff-so-fancy](https://github.com/so-fancy/diff-so-fancy) (11415) Good-lookin' diffs. Actually… nah… The best-lookin' diffs. :tada:|[sitaramc/gitolite](https://github.com/sitaramc/gitolite) (7332) Hosting git repositories -- Gitolite allows you to setup git hosting on a central server, with very fine-grained access control and many (many!) more powerful features.|[brendangregg/FlameGraph](https://github.com/brendangregg/FlameGraph) (7260) Stack trace visualizer|[AlDanial/cloc](https://github.com/AlDanial/cloc) (6637) cloc counts blank lines, comment lines, and physical lines of source code in many programming languages.|[major/MySQLTuner-perl](https://github.com/major/MySQLTuner-perl) (4954) MySQLTuner is a script written in Perl that will assist you with your MySQL configuration and make recommendations for increased performance and stability.|
-|Rust|[rust-lang/rust](https://github.com/rust-lang/rust) (34053) Empowering everyone to build reliable and efficient software.|[xi-editor/xi-editor](https://github.com/xi-editor/xi-editor) (15693) A modern editor with a backend written in Rust.|[jwilm/alacritty](https://github.com/jwilm/alacritty) (14478) A cross-platform, GPU-accelerated terminal emulator|[servo/servo](https://github.com/servo/servo) (13469) The Servo Browser Engine|[BurntSushi/ripgrep](https://github.com/BurntSushi/ripgrep) (12773) ripgrep recursively searches directories for a regex pattern|
-|Clojure|[tonsky/FiraCode](https://github.com/tonsky/FiraCode) (31350) Monospaced font with programming ligatures|[LightTable/LightTable](https://github.com/LightTable/LightTable) (10441) The Light Table IDE ⛺|[clojure/clojurescript](https://github.com/clojure/clojurescript) (7976) Clojure to JS compiler|[omcljs/om](https://github.com/omcljs/om) (6610) ClojureScript interface to Facebook's React|[technomancy/leiningen](https://github.com/technomancy/leiningen) (6245) Automate Clojure projects without setting your hair on fire.|
-|Kotlin|[JetBrains/kotlin](https://github.com/JetBrains/kotlin) (26392) The Kotlin Programming Language|[shadowsocks/shadowsocks-android](https://github.com/shadowsocks/shadowsocks-android) (21065) A shadowsocks client for Android|[tipsy/profile-summary-for-github](https://github.com/tipsy/profile-summary-for-github) (18603) Tool for visualizing GitHub profiles|[google/iosched](https://github.com/google/iosched) (17892) The Google I/O 2018 Android App|[afollestad/material-dialogs](https://github.com/afollestad/material-dialogs) (15219) [Version 2 is now stable] A beautiful and fluid dialogs API for Kotlin & Android.|
-|Vim script|[neovim/neovim](https://github.com/neovim/neovim) (30102) Vim-fork focused on extensibility and usability|[VundleVim/Vundle.vim](https://github.com/VundleVim/Vundle.vim) (19191) Vundle, the plug-in manager for Vim|[amix/vimrc](https://github.com/amix/vimrc) (16761) The ultimate Vim configuration: vimrc|[vim/vim](https://github.com/vim/vim) (15602) The official Vim repository|[junegunn/vim-plug](https://github.com/junegunn/vim-plug) (13525) :hibiscus: Minimalist Vim Plugin Manager|
-|Vue|[ElemeFE/element](https://github.com/ElemeFE/element) (35110) A Vue.js 2.0 UI Toolkit for Web|[PanJiaChen/vue-element-admin](https://github.com/PanJiaChen/vue-element-admin) (27435) :tada: A magical vue admin                                                                http://panjiachen.github.io/vue-element-admin|[bailicangdu/vue2-elm](https://github.com/bailicangdu/vue2-elm) (25183) 基于 vue2 + vuex 构建一个具有 45 个页面的大型单页面应用|[iview/iview](https://github.com/iview/iview) (19810) A high quality UI Toolkit built on Vue.js 2.0|[airyland/vux](https://github.com/airyland/vux) (15107) Mobile UI Components based on Vue & WeUI|
+|JavaScript|[freeCodeCamp/freeCodeCamp](https://github.com/freeCodeCamp/freeCodeCamp) (305710) The https://www.freeCodeCamp.org open source codebase and curriculum. Learn to code for free together with millions of people.|[vuejs/vue](https://github.com/vuejs/vue) (150651) 🖖 Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web.|[facebook/react](https://github.com/facebook/react) (138098) A declarative, efficient, and flexible JavaScript library for building user interfaces.|[twbs/bootstrap](https://github.com/twbs/bootstrap) (136412) The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web.|[airbnb/javascript](https://github.com/airbnb/javascript) (89833) JavaScript Style Guide|
+|Java|[CyC2018/CS-Notes](https://github.com/CyC2018/CS-Notes) (80938) :books: Tech Interview Guide 技术面试必备基础知识、Leetcode 题解、Java、C++、Python、后端面试、操作系统、计算机网络、系统设计|[Snailclimb/JavaGuide](https://github.com/Snailclimb/JavaGuide) (58620) 【Java学习+面试指南】 一份涵盖大部分Java程序员所需要掌握的核心知识。|[iluwatar/java-design-patterns](https://github.com/iluwatar/java-design-patterns) (52061) Design patterns implemented in Java|[elastic/elasticsearch](https://github.com/elastic/elasticsearch) (44898) Open Source, Distributed, RESTful Search Engine|[MisterBooo/LeetCodeAnimation](https://github.com/MisterBooo/LeetCodeAnimation) (42863) Demonstrate all the questions on LeetCode in the form of animation.（用动画的形式呈现解LeetCode题目的思路）|
+|HTML|[h5bp/Front-end-Developer-Interview-Questions](https://github.com/h5bp/Front-end-Developer-Interview-Questions) (42518) A list of helpful front-end related questions you can use to interview potential candidates, test yourself or completely ignore.|[google/material-design-lite](https://github.com/google/material-design-lite) (31450) Material Design Components in HTML/CSS/JS|[ColorlibHQ/AdminLTE](https://github.com/ColorlibHQ/AdminLTE) (31392) AdminLTE - Free Premium Admin control Panel Theme Based On Bootstrap 3.x|[foundation/foundation-sites](https://github.com/foundation/foundation-sites) (28314) The most advanced responsive front-end framework in the world. Quickly create prototypes and production code for sites that work on any kind of device.|[ariya/phantomjs](https://github.com/ariya/phantomjs) (27090) Scriptable Headless Browser|
+|Python|[donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer) (75163) Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.|[vinta/awesome-python](https://github.com/vinta/awesome-python) (74452) A curated list of awesome Python frameworks, libraries, software and resources|[public-apis/public-apis](https://github.com/public-apis/public-apis) (63910) A collective list of free APIs for use in software and web development.|[tensorflow/models](https://github.com/tensorflow/models) (58569) Models and examples built with TensorFlow|[ytdl-org/youtube-dl](https://github.com/ytdl-org/youtube-dl) (56816) Command-line program to download videos from YouTube.com and other video sites|
+|PHP|[laravel/laravel](https://github.com/laravel/laravel) (55714) A PHP framework for web artisans|[blueimp/jQuery-File-Upload](https://github.com/blueimp/jQuery-File-Upload) (30324) File Upload widget with multiple file selection, drag&drop support, progress bar, validation and preview images, audio and video for jQuery. Supports cross-domain, chunked and resumable file uploads. Works with any server-side platform (Google App Engine, PHP, Python, Ruby on Rails, Java, etc.) that supports standard HTML form file uploads.|[fzaninotto/Faker](https://github.com/fzaninotto/Faker) (22204) Faker is a PHP library that generates fake data for you|[symfony/symfony](https://github.com/symfony/symfony) (21899) The Symfony PHP framework|[composer/composer](https://github.com/composer/composer) (21264) Dependency Manager for PHP|
+|CSS|[daneden/animate.css](https://github.com/daneden/animate.css) (62625) 🍿 A cross-browser library of CSS animations. As easy to use as an easy thing.|[google/material-design-icons](https://github.com/google/material-design-icons) (39071) Material Design icons by Google|[jgthms/bulma](https://github.com/jgthms/bulma) (37100) Modern CSS framework based on Flexbox|[necolas/normalize.css](https://github.com/necolas/normalize.css) (36602) A modern alternative to CSS resets|[FreeCodeCampChina/freecodecamp.cn](https://github.com/FreeCodeCampChina/freecodecamp.cn) (36493) The FreeCodeCamp.cn(FCC China) open source codebase and curriculum. Learn to code and help nonprofits.|
+|C#|[shadowsocks/shadowsocks-windows](https://github.com/shadowsocks/shadowsocks-windows) (43869) If you want to keep a secret, you must also hide it from yourself.|[CodeHubApp/CodeHub](https://github.com/CodeHubApp/CodeHub) (21795) CodeHub is an iOS application written using Xamarin|[dotnet/corefx](https://github.com/dotnet/corefx) (17611) CoreFX is the foundational class libraries for .NET Core. It includes types for collections, file systems, console, JSON, XML, async and many others.|[PowerShell/PowerShell](https://github.com/PowerShell/PowerShell) (16139) PowerShell for every system!|[Wox-launcher/Wox](https://github.com/Wox-launcher/Wox) (14712) Launcher for Windows, an alternative to Alfred and Launchy.|
+|Ruby|[rails/rails](https://github.com/rails/rails) (44358) Ruby on Rails|[jekyll/jekyll](https://github.com/jekyll/jekyll) (38928) :globe_with_meridians: Jekyll is a blog-aware static site generator in Ruby|[discourse/discourse](https://github.com/discourse/discourse) (29250) A platform for community discussion. Free, open, simple.|[fastlane/fastlane](https://github.com/fastlane/fastlane) (27161) 🚀 The easiest way to automate building and releasing your iOS and Android apps|[bayandin/awesome-awesomeness](https://github.com/bayandin/awesome-awesomeness) (25091) A curated list of awesome awesomeness|
+|C++|[tensorflow/tensorflow](https://github.com/tensorflow/tensorflow) (136232) An Open Source Machine Learning Framework for Everyone|[electron/electron](https://github.com/electron/electron) (77757) :electron: Build cross-platform desktop apps with JavaScript, HTML, and CSS|[microsoft/terminal](https://github.com/microsoft/terminal) (53344) The new Windows Terminal, and the original Windows console host - all in the same place!|[apple/swift](https://github.com/apple/swift) (49446) The Swift Programming Language|[bitcoin/bitcoin](https://github.com/bitcoin/bitcoin) (40486) Bitcoin Core integration/staging tree|
+|C|[torvalds/linux](https://github.com/torvalds/linux) (81658) Linux kernel source tree|[netdata/netdata](https://github.com/netdata/netdata) (41860) Real-time performance monitoring, done right! https://my-netdata.io/|[antirez/redis](https://github.com/antirez/redis) (39239) Redis is an in-memory database that persists on disk. The data model is key-value, but many different kind of values are supported: Strings, Lists, Sets, Sorted Sets, Hashes, Streams, HyperLogLogs, Bitmaps.|[git/git](https://github.com/git/git) (29756) Git Source Code Mirror - This is a publish-only repository and all pull requests are ignored. Please follow Documentation/SubmittingPatches procedure for any of your improvements.|[php/php-src](https://github.com/php/php-src) (25238) The PHP Interpreter|
+|Shell|[robbyrussell/oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) (97095) 🙃 A delightful community-driven (with 1,300+ contributors) framework for managing your zsh configuration. Includes 200+ optional plugins (rails, git, OSX, hub, capistrano, brew, ant, php, python, etc), over 140 themes to spice up your morning, and an auto-update tool so that makes it easy to keep up with the latest updates from the community.|[nvm-sh/nvm](https://github.com/nvm-sh/nvm) (37625) Node Version Manager - POSIX-compliant bash script to manage multiple active node.js versions|[open-guides/og-aws](https://github.com/open-guides/og-aws) (25034) 📙 Amazon Web Services — a practical guide|[shengxinjing/programmer-job-blacklist](https://github.com/shengxinjing/programmer-job-blacklist) (24366) :see_no_evil:程序员找工作黑名单，换工作和当技术合伙人需谨慎啊 更新有赞|[nvie/gitflow](https://github.com/nvie/gitflow) (23030) Git extensions to provide high-level repository operations for Vincent Driessen's branching model.|
+|Jupyter Notebook|[jackfrued/Python-100-Days](https://github.com/jackfrued/Python-100-Days) (65110) Python - 100天从新手到大师|[TheAlgorithms/Python](https://github.com/TheAlgorithms/Python) (60023) All Algorithms implemented in Python|[aymericdamien/TensorFlow-Examples](https://github.com/aymericdamien/TensorFlow-Examples) (34868) TensorFlow Tutorial and Examples for Beginners (support TF v1 & v2)|[practicalAI/practicalAI](https://github.com/practicalAI/practicalAI) (20942) 📚 A practical approach to machine learning. |[jakevdp/PythonDataScienceHandbook](https://github.com/jakevdp/PythonDataScienceHandbook) (20418) Python Data Science Handbook: full text in Jupyter Notebooks|
+|TypeScript|[microsoft/vscode](https://github.com/microsoft/vscode) (84798) Visual Studio Code|[microsoft/TypeScript](https://github.com/microsoft/TypeScript) (54910) TypeScript is a superset of JavaScript that compiles to clean JavaScript output.|[angular/angular](https://github.com/angular/angular) (53112) One framework. Mobile & desktop.|[ant-design/ant-design](https://github.com/ant-design/ant-design) (52671) 🌈 A UI Design Language and React UI library|[reduxjs/redux](https://github.com/reduxjs/redux) (51038) Predictable state container for JavaScript apps|
+|Swift|[vsouza/awesome-ios](https://github.com/vsouza/awesome-ios) (33246) A curated list of awesome iOS ecosystem, including Objective-C and Swift Projects |[Alamofire/Alamofire](https://github.com/Alamofire/Alamofire) (32161) Elegant HTTP Networking in Swift|[shadowsocks/ShadowsocksX-NG](https://github.com/shadowsocks/ShadowsocksX-NG) (24561) Next Generation of ShadowsocksX|[danielgindi/Charts](https://github.com/danielgindi/Charts) (21783) Beautiful charts for iOS/tvOS/OSX! The Apple side of the crossplatform MPAndroidChart.|[raywenderlich/swift-algorithm-club](https://github.com/raywenderlich/swift-algorithm-club) (21560) Algorithms and data structures in Swift, with explanations!|
+|Objective-C|[AFNetworking/AFNetworking](https://github.com/AFNetworking/AFNetworking) (32416) A delightful networking framework for iOS, macOS, watchOS, and tvOS.|[SDWebImage/SDWebImage](https://github.com/SDWebImage/SDWebImage) (22026) Asynchronous image downloader with cache support as a UIImageView category|[BradLarson/GPUImage](https://github.com/BradLarson/GPUImage) (18885) An open source iOS framework for GPU-based image and video processing|[SnapKit/Masonry](https://github.com/SnapKit/Masonry) (17545) Harness the power of AutoLayout NSLayoutConstraints with a simplified, chainable and expressive syntax. Supports iOS and OSX Auto Layout|[jdg/MBProgressHUD](https://github.com/jdg/MBProgressHUD) (15431) MBProgressHUD + Customizations|
+|Go|[golang/go](https://github.com/golang/go) (64827) The Go programming language|[kubernetes/kubernetes](https://github.com/kubernetes/kubernetes) (59066) Production-Grade Container Scheduling and Management|[moby/moby](https://github.com/moby/moby) (55198) Moby Project - a collaborative project for the container ecosystem to assemble container-based systems|[avelino/awesome-go](https://github.com/avelino/awesome-go) (48802) A curated list of awesome Go frameworks, libraries and software|[getlantern/lantern](https://github.com/getlantern/lantern) (45931) 蓝灯Windows下载 https://raw.githubusercontent.com/getlantern/lantern-binaries/master/lantern-installer.exe 蓝灯安卓下载 https://raw.githubusercontent.com/getlantern/lantern-binaries/master/lantern-installer.apk|
+|R|[tidyverse/ggplot2](https://github.com/tidyverse/ggplot2) (4062) An implementation of the Grammar of Graphics in R|[qinwf/awesome-R](https://github.com/qinwf/awesome-R) (3721) A curated list of awesome R packages, frameworks and software.|[rstudio/shiny](https://github.com/rstudio/shiny) (3581) Easy interactive web applications with R|[johnmyleswhite/ML_for_Hackers](https://github.com/johnmyleswhite/ML_for_Hackers) (3535) Code accompanying the book "Machine Learning for Hackers"|[tidyverse/dplyr](https://github.com/tidyverse/dplyr) (3097) dplyr: A grammar of data manipulation|
+|Vue|[PanJiaChen/vue-element-admin](https://github.com/PanJiaChen/vue-element-admin) (43414) :tada: A magical vue admin                                                                https://panjiachen.github.io/vue-element-admin|[ElemeFE/element](https://github.com/ElemeFE/element) (41701) A Vue.js 2.0 UI Toolkit for Web|[bailicangdu/vue2-elm](https://github.com/bailicangdu/vue2-elm) (30241) 基于 vue2 + vuex 构建一个具有 45 个页面的大型单页面应用|[iview/iview](https://github.com/iview/iview) (22670) A high quality UI Toolkit built on Vue.js 2.0|[tipsy/profile-summary-for-github](https://github.com/tipsy/profile-summary-for-github) (18911) Tool for visualizing GitHub profiles|
+|Kotlin|[android/architecture-samples](https://github.com/android/architecture-samples) (34533) A collection of samples to discuss and showcase different architectural tools and patterns for Android apps.|[JetBrains/kotlin](https://github.com/JetBrains/kotlin) (29402) The Kotlin Programming Language|[shadowsocks/shadowsocks-android](https://github.com/shadowsocks/shadowsocks-android) (26973) A shadowsocks client for Android|[square/leakcanary](https://github.com/square/leakcanary) (23784) LeakCanary is a memory leak detection library for Android.|[google/iosched](https://github.com/google/iosched) (19199) The Google I/O 2019 Android App|
+|MATLAB|[luanfujun/deep-photo-styletransfer](https://github.com/luanfujun/deep-photo-styletransfer) (9341) Code and data for paper "Deep Photo Style Transfer": https://arxiv.org/abs/1703.07511 |[PRML/PRMLT](https://github.com/PRML/PRMLT) (4276) Matlab code for machine learning algorithms in book PRML|[TadasBaltrusaitis/OpenFace](https://github.com/TadasBaltrusaitis/OpenFace) (3955) OpenFace – a state-of-the art tool intended for facial landmark detection, head pose estimation, facial action unit recognition, and eye-gaze estimation.|[rasmusbergpalm/DeepLearnToolbox](https://github.com/rasmusbergpalm/DeepLearnToolbox) (3377) Matlab/Octave toolbox for deep learning. Includes Deep Belief Nets, Stacked Autoencoders, Convolutional Neural Nets, Convolutional Autoencoders and vanilla Neural Nets. Each method has examples to get you started.|[ShaoqingRen/faster_rcnn](https://github.com/ShaoqingRen/faster_rcnn) (2167) Faster R-CNN|
+|Dockerfile|[kelseyhightower/nocode](https://github.com/kelseyhightower/nocode) (32234) The best way to write secure and reliable applications. Write nothing; deploy nowhere.|[jessfraz/dockerfiles](https://github.com/jessfraz/dockerfiles) (9082) Various Dockerfiles I use on the desktop and on servers.|[laradock/laradock](https://github.com/laradock/laradock) (8413) The most popular full PHP development environment on Docker.|[nodejs/docker-node](https://github.com/nodejs/docker-node) (4909) Official Docker Image for Node.js :whale: :turtle: :rocket: |[SeleniumHQ/docker-selenium](https://github.com/SeleniumHQ/docker-selenium) (3574) Docker images for Selenium Grid Server (Standalone, Hub, and Nodes).|
+|Dart|[flutter/flutter](https://github.com/flutter/flutter) (77586) Flutter makes it easy and fast to build beautiful mobile apps.|[Solido/awesome-flutter](https://github.com/Solido/awesome-flutter) (22781) An awesome list that curates the best Flutter libraries, tools, tutorials, articles and more.|[alibaba/flutter-go](https://github.com/alibaba/flutter-go) (17634) flutter 开发者帮助 APP，包含 flutter 常用 140+ 组件的demo 演示与中文文档|[CarGuo/gsy_github_app_flutter](https://github.com/CarGuo/gsy_github_app_flutter) (8977) 超完整的Flutter项目，功能丰富，适合学习和日常使用。GSYGithubApp系列的优势：我们目前已经拥有Flutter、Weex、ReactNative、kotlin 四个版本。 功能齐全，项目框架内技术涉及面广，完成度高，持续维护，配套文章，适合全面学习，对比参考。跨平台的开源Github客户端App，更好的体验，更丰富的功能，旨在更好的日常管理和维护个人Github，提供更好更方便的驾车体验Σ(￣。￣ﾉ)ﾉ。同款Weex版本 ： https://github.com/CarGuo/GSYGithubAppWeex    、同款React Native版本 ： https://github.com/CarGuo/GSYGithubApp 、原生 kotlin 版本 https://github.com/CarGuo/GSYGithubAppKotlin|[flutter/plugins](https://github.com/flutter/plugins) (8477) Plugins for Flutter maintained by the Flutter team|
+|Rust|[996icu/996.ICU](https://github.com/996icu/996.ICU) (247494) Repo for counting stars and contributing. Press F to pay respect to glorious developers.|[rust-lang/rust](https://github.com/rust-lang/rust) (39769) Empowering everyone to build reliable and efficient software.|[jwilm/alacritty](https://github.com/jwilm/alacritty) (18736) A cross-platform, GPU-accelerated terminal emulator|[xi-editor/xi-editor](https://github.com/xi-editor/xi-editor) (16818) A modern editor with a backend written in Rust.|[BurntSushi/ripgrep](https://github.com/BurntSushi/ripgrep) (16575) ripgrep recursively searches directories for a regex pattern|
+|Scala|[apache/spark](https://github.com/apache/spark) (23899) Apache Spark|[prisma/prisma](https://github.com/prisma/prisma) (15919) 💾 Database Tools incl. ORM, Migrations and Admin UI (Postgres, MySQL & MongoDB)|[scala/scala](https://github.com/scala/scala) (12195) The Scala programming language|[apache/predictionio](https://github.com/apache/predictionio) (12131) PredictionIO, a machine learning server for developers and ML engineers.|[playframework/playframework](https://github.com/playframework/playframework) (11359) Play Framework|
+|Vim script|[neovim/neovim](https://github.com/neovim/neovim) (33637) Vim-fork focused on extensibility and usability|[VundleVim/Vundle.vim](https://github.com/VundleVim/Vundle.vim) (20429) Vundle, the plug-in manager for Vim|[amix/vimrc](https://github.com/amix/vimrc) (19419) The ultimate Vim configuration: vimrc|[vim/vim](https://github.com/vim/vim) (18125) The official Vim repository|[junegunn/vim-plug](https://github.com/junegunn/vim-plug) (16338) :hibiscus: Minimalist Vim Plugin Manager|
 
 
-## Most growing languages in 2018-2019
+
+## Most growing languages within last 12 months
+
 <a name="most-growing" />
-
 |language|coefficient|all repos|10+ stars|100+ stars|1000+ stars|10000+ stars|
 |----|----|----|----|----|----|----|
-|**TypeScript**|0.83167|12→9|15→12|15→13|15→13|8→7|
-|Solidity|0.85829|160→114|101→77|102→87|🚫→🚫|🚫→🚫|
-|**Swift**|0.86429|15→14|14→13|12→11|10→9|14→9|
-|RPC|0.87893|174→128|201→157|175→160|🚫→🚫|🚫→🚫|
-|Dockerfile|0.87956|32→21|39→32|38→35|35→35|30→30|
-|q|0.88011|235→173|207→163|173→158|🚫→🚫|🚫→🚫|
-|ShaderLab|0.88089|78→58|78→67|66→58|78→72|🚫→🚫|
-|Nextflow|0.88254|195→150|185→140|🚫→🚫|🚫→🚫|🚫→🚫|
-|YARA|0.88296|287→233|181→138|114→101|110→105|🚫→🚫|
-|**Vue**|0.88362|22→17|27→21|23→21|22→21|19→19|
-|WebAssembly|0.88469|166→124|100→81|79→71|62→60|🚫→🚫|
-|Common Workflow Language|0.88559|211→159|173→134|188→176|🚫→🚫|🚫→🚫|
-|Nix|0.89021|109→83|75→63|75→69|71→66|🚫→🚫|
-|Hack|0.89088|71→45|137→119|110→108|67→65|🚫→🚫|
-|sed|0.89212|267→212|208→165|155→141|🚫→🚫|🚫→🚫|
-|wdl|0.89327|248→192|221→178|🚫→🚫|🚫→🚫|🚫→🚫|
-|F*|0.89422|291→237|274→226|164→148|85→79|🚫→🚫|
-|YASnippet|0.89756|255→203|215→174|234→215|🚫→🚫|🚫→🚫|
-|Meson|0.89815|229→175|247→206|211→196|🚫→🚫|🚫→🚫|
-|**Go**|0.89893|16→15|10→7|7→6|4→4|4→4|
-|Dart|0.90011|41→29|34→28|33→32|33→33|29→29|
-|**Kotlin**|0.90080|23→18|25→19|19→18|19→18|15→16|
-|SMT|0.90123|224→193|166→133|133→117|🚫→🚫|🚫→🚫|
-|1C Enterprise|0.90369|149→126|110→91|127→112|🚫→🚫|🚫→🚫|
-|ABAP|0.90397|141→117|133→112|121→107|🚫→🚫|🚫→🚫|
-|Rascal|0.90435|210→174|176→146|223→205|100→97|39→38|
-|**C++**|0.90444|9→8|5→4|4→4|6→5|5→5|
-|Ballerina|0.90499|181→140|281→243|🚫→🚫|🚫→🚫|🚫→🚫|
-|AngelScript|0.90518|186→151|216→180|181→166|🚫→🚫|🚫→🚫|
-|LookML|0.90532|126→101|235→197|🚫→🚫|🚫→🚫|🚫→🚫|
-|GDScript|0.90769|79→61|71→64|81→73|🚫→🚫|🚫→🚫|
-|CWeb|0.90909|230→177|243→214|190→177|🚫→🚫|🚫→🚫|
-|P4|0.90930|253→217|213→172|170→156|🚫→🚫|🚫→🚫|
-|Roff|0.90968|58→46|76→66|68→59|52→53|🚫→🚫|
-|Markdown|0.91069|321→274|262→218|167→151|🚫→🚫|🚫→🚫|
-|BitBake|0.91096|128→113|118→102|109→96|82→76|🚫→🚫|
-|Slice|0.91283|308→262|254→210|🚫→🚫|🚫→🚫|🚫→🚫|
-|RAML|0.91458|130→115|155→132|126→110|🚫→🚫|🚫→🚫|
-|Nim|0.91476|106→89|61→52|62→56|93→91|🚫→🚫|
-|Smarty|0.91571|66→53|72→61|70→67|104→101|🚫→🚫|
+|**ActionScript**|0.36715|24275→1162|1118→96|125→25|8→4|🚫→🚫|
+|**Eagle**|0.42135|9568→44|449→20|36→2|1→1|🚫→🚫|
+|**Nginx**|0.42205|6500→13|144→3|12→1|🚫→🚫|🚫→🚫|
+|Objective-C|0.42618|515167→65244|26940→4785|6326→1806|846→486|30→29|
+|**Protocol Buffer**|0.42725|1205→3|63→2|10→1|1→1|🚫→🚫|
+|**CoffeeScript**|0.43923|65826→4424|4293→815|715→264|93→53|6→6|
+|**LiveScript**|0.44966|1802→209|113→21|18→8|2→1|🚫→🚫|
+|**KiCad Layout**|0.45783|4489→27|172→5|12→3|🚫→🚫|🚫→🚫|
+|**Processing**|0.48409|52631→13887|448→123|50→19|2→1|🚫→🚫|
+|**Objective-J**|0.49249|863→199|92→8|7→1|1→1|🚫→🚫|
+|**AppleScript**|0.50162|2687→529|225→61|35→13|3→2|🚫→🚫|
+|**MATLAB**|0.51336|185650→59095|3184→1120|251→117|14→6|🚫→🚫|
+|**Puppet**|0.51401|22345→2582|464→93|24→6|🚫→🚫|🚫→🚫|
+|**SQLPL**|0.52502|7803→2122|71→30|7→3|2→1|🚫→🚫|
+|**Cirru**|0.53494|72→2|7→1|2→1|🚫→🚫|🚫→🚫|
+|**Logos**|0.54415|5352→674|202→52|9→3|🚫→🚫|🚫→🚫|
+|**Lua**|0.54439|128680→32532|4953→1981|712→383|64→50|4→3|
+|**PostScript**|0.54900|5803→1551|162→72|32→17|2→1|🚫→🚫|
+|**Smali**|0.56006|1540→331|60→15|12→4|1→1|🚫→🚫|
+|**Objective-C++**|0.56089|3876→906|371→121|76→32|17→14|3→3|
+|Ruby|0.56336|1756413→341204|36362→10095|6084→3191|724→594|25→25|
+|**Awk**|0.56848|1643→483|57→23|14→9|2→1|🚫→🚫|
+|**CartoCSS**|0.57480|400→51|33→8|6→3|🚫→🚫|🚫→🚫|
+|**M**|0.58326|1735→392|17→6|3→1|🚫→🚫|🚫→🚫|
+|CSS|0.58418|2122723→679838|17326→6677|3274→1739|440→301|29→29|
+|**Nemerle**|0.58437|173→5|9→2|3→2|🚫→🚫|🚫→🚫|
+|**Scheme**|0.58623|12825→2776|462→158|58→36|4→3|🚫→🚫|
+|**QML**|0.58731|8904→3145|416→208|48→28|2→1|1→1|
+|**Erlang**|0.58786|24609→3933|2279→657|348→196|27→25|🚫→🚫|
+|Java|0.59229|6909532→2163529|78861→29533|15380→8398|2255→1685|103→101|
+|**Perl**|0.59897|152924→22773|4179→1627|498→327|35→28|1→1|
+|**Clojure**|0.60092|65984→12281|4896→1596|973→556|76→70|3→3|
+|**Gosu**|0.60856|683→115|27→10|4→2|🚫→🚫|🚫→🚫|
+|**ColdFusion**|0.61019|44191→691|192→54|12→9|🚫→🚫|🚫→🚫|
+|**Cuda**|0.61115|10870→3261|321→151|60→37|9→6|🚫→🚫|
+|**GLSL**|0.61364|6847→1552|348→128|53→25|2→2|🚫→🚫|
+|**Mercury**|0.61525|571→134|16→7|5→2|🚫→🚫|🚫→🚫|
+|**Graphviz (DOT)**|0.61609|342→1|14→1|🚫→🚫|🚫→🚫|🚫→🚫|
+|**XSLT**|0.61650|20675→5584|441→192|48→34|6→4|🚫→🚫|
+|**Groovy**|0.61996|53065→13394|1876→776|274→177|14→11|🚫→🚫|
 
 
 
-## Most failing languages in 2018-2019
+## Most failing languages within last 12 months
+
 <a name="most-failing" />
-
 |language|coefficient|all repos|10+ stars|100+ stars|1000+ stars|10000+ stars|
 |----|----|----|----|----|----|----|
-|ApacheConf|2.00063|56→244|94→166|77→121|81→🚫|🚫→🚫|
-|Eagle|1.93199|69→234|55→126|61→125|84→78|🚫→🚫|
-|**Objective-C**|1.72222|14→19|9→16|6→14|5→10|7→8|
-|Pure Data|1.69360|127→297|119→🚫|132→🚫|🚫→🚫|🚫→🚫|
-|Nginx|1.67873|77→249|86→155|99→138|🚫→🚫|🚫→🚫|
-|KiCad Layout|1.66853|84→256|83→169|105→136|🚫→🚫|🚫→🚫|
-|Protocol Buffer|1.64259|138→302|116→221|106→🚫|98→🚫|🚫→🚫|
-|GCC Machine Description|1.49345|118→285|129→195|104→133|65→82|🚫→🚫|
-|ActionScript|1.43384|46→86|42→72|41→61|41→45|🚫→🚫|
-|ColdFusion|1.40282|39→112|77→94|95→91|🚫→🚫|🚫→🚫|
-|Web Ontology Language|1.39599|119→293|147→238|231→🚫|🚫→🚫|🚫→🚫|
-|Handlebars|1.39207|176→326|164→🚫|165→🚫|🚫→🚫|🚫→🚫|
-|XML|1.36146|98→148|136→265|158→🚫|108→🚫|🚫→🚫|
-|Objective-J|1.33187|161→180|103→190|117→201|94→92|🚫→🚫|
-|**Ruby**|1.32952|7→12|6→11|8→8|8→8|10→11|
-|CoffeeScript|1.29074|30→49|22→33|22→28|21→22|21→21|
-|SQL|1.26293|178→253|180→263|143→210|🚫→🚫|🚫→🚫|
-|Graphviz (DOT)|1.22085|197→343|191→282|🚫→🚫|🚫→🚫|🚫→🚫|
-|ooc|1.19110|227→328|194→🚫|217→🚫|🚫→🚫|🚫→🚫|
-|Puppet|1.18954|48→65|49→60|74→104|🚫→🚫|🚫→🚫|
-|Bison|1.18587|234→🚫|230→🚫|186→🚫|🚫→🚫|🚫→🚫|
-|LiveScript|1.18243|125→163|99→121|86→98|69→86|🚫→🚫|
-|Logos|1.17165|83→123|81→104|101→114|🚫→🚫|🚫→🚫|
-|Component Pascal|1.15245|150→223|144→200|🚫→🚫|🚫→🚫|🚫→🚫|
-|**Clojure**|1.14806|31→40|20→27|20→22|23→23|27→27|
-|Diff|1.14124|198→314|244→🚫|🚫→🚫|🚫→🚫|🚫→🚫|
-|**Scala**|1.12009|19→26|17→20|18→19|20→20|22→22|
-|**Perl**|1.10690|20→30|26→26|29→29|29→30|32→32|
-|**Java**|1.10000|2→2|3→3|3→3|2→3|3→3|
-|Parrot|1.09893|279→301|189→289|🚫→🚫|🚫→🚫|🚫→🚫|
-|Erlang|1.09368|47→59|33→39|32→33|34→34|🚫→🚫|
-|Cirru|1.09245|277→333|222→270|162→175|🚫→🚫|🚫→🚫|
-|CartoCSS|1.09227|189→228|141→181|130→131|🚫→🚫|🚫→🚫|
-|Opa|1.09018|278→329|218→🚫|🚫→🚫|🚫→🚫|🚫→🚫|
-|Io|1.09015|159→166|150→228|🚫→🚫|🚫→🚫|🚫→🚫|
-|Mirah|1.08651|282→🚫|248→🚫|213→🚫|🚫→🚫|🚫→🚫|
-|Nu|1.08483|275→🚫|238→🚫|🚫→🚫|🚫→🚫|🚫→🚫|
-|Arc|1.08427|243→260|197→241|146→170|🚫→🚫|🚫→🚫|
-|AppleScript|1.08324|112→121|74→87|69→74|57→62|🚫→🚫|
-|IDL|1.08303|120→135|145→176|166→188|89→84|🚫→🚫|
+|**Fancy**|197.22809|22→3|1→🚫|1→🚫|🚫→🚫|🚫→🚫|
+|**LoomScript**|197.21331|16→1|1→🚫|1→🚫|🚫→🚫|🚫→🚫|
+|**Rascal**|197.12361|391→183|20→13|2→1|1→🚫|1→🚫|
+|**Gettext Catalog**|148.39759|248→🚫|2→🚫|1→🚫|🚫→🚫|🚫→🚫|
+|**Gradle**|148.20122|2→🚫|1→🚫|🚫→🚫|🚫→🚫|🚫→🚫|
+|**XML**|131.41259|3367→106|34→1|3→🚫|1→🚫|🚫→🚫|
+|**Mirah**|119.90690|69→🚫|5→🚫|1→🚫|🚫→🚫|🚫→🚫|
+|**Bison**|115.68081|205→🚫|6→🚫|1→🚫|🚫→🚫|🚫→🚫|
+|**PigLatin**|115.22684|1053→137|6→🚫|1→🚫|🚫→🚫|🚫→🚫|
+|**AspectJ**|115.21759|632→53|6→🚫|1→🚫|🚫→🚫|🚫→🚫|
+|**ooc**|106.37178|230→2|13→🚫|1→🚫|🚫→🚫|🚫→🚫|
+|**Public Key**|99.20163|1→🚫|🚫→🚫|🚫→🚫|🚫→🚫|🚫→🚫|
+|**Myghty**|99.20163|1→🚫|🚫→🚫|🚫→🚫|🚫→🚫|🚫→🚫|
+|**Nearley**|99.13759|22→15|1→🚫|🚫→🚫|🚫→🚫|🚫→🚫|
+|**EQ**|99.10122|18→9|1→🚫|🚫→🚫|🚫→🚫|🚫→🚫|
+|**Logtalk**|99.08818|23→10|1→🚫|🚫→🚫|🚫→🚫|🚫→🚫|
+|**IGOR Pro**|99.07869|284→110|1→🚫|🚫→🚫|🚫→🚫|🚫→🚫|
+|**ECL**|99.06885|139→47|1→🚫|🚫→🚫|🚫→🚫|🚫→🚫|
+|**KRL**|99.06021|295→87|1→🚫|🚫→🚫|🚫→🚫|🚫→🚫|
+|**Click**|99.05929|31→9|1→🚫|🚫→🚫|🚫→🚫|🚫→🚫|
+|**Harbour**|99.04333|38→8|1→🚫|🚫→🚫|🚫→🚫|🚫→🚫|
+|**Csound Document**|99.02415|220→99|9→6|1→🚫|🚫→🚫|🚫→🚫|
+|**MTML**|99.02073|82→8|1→🚫|🚫→🚫|🚫→🚫|🚫→🚫|
+|**Golo**|99.00598|42→1|1→🚫|🚫→🚫|🚫→🚫|🚫→🚫|
+|**WebIDL**|99.00558|14→5|3→2|1→🚫|🚫→🚫|🚫→🚫|
+|**DTrace**|98.99914|325→183|14→6|1→🚫|🚫→🚫|🚫→🚫|
+|**Ragel**|98.97523|43→16|4→2|1→🚫|🚫→🚫|🚫→🚫|
+|**Rebol**|98.96785|4323→2810|27→5|1→🚫|🚫→🚫|🚫→🚫|
+|**Mask**|98.96189|338→122|9→4|1→🚫|🚫→🚫|🚫→🚫|
+|**Grammatical Framework**|98.94577|117→38|5→2|1→🚫|🚫→🚫|🚫→🚫|
+|**Jasmin**|98.92681|50→19|4→1|1→🚫|🚫→🚫|🚫→🚫|
+|**Slash**|98.92282|407→132|7→2|1→🚫|🚫→🚫|🚫→🚫|
+|**J**|98.90637|324→90|8→2|1→🚫|🚫→🚫|🚫→🚫|
+|**OpenSCAD**|98.85515|6813→1984|178→76|27→15|1→🚫|🚫→🚫|
+|**Thrift**|98.85234|302→91|24→11|4→2|1→🚫|🚫→🚫|
+|**PogoScript**|98.84474|51→1|5→1|1→🚫|🚫→🚫|🚫→🚫|
+|**Component Pascal**|98.83054|1109→67|34→3|1→🚫|🚫→🚫|🚫→🚫|
+|**Web Ontology Language**|98.82416|1961→11|27→3|1→🚫|🚫→🚫|🚫→🚫|
+|**OpenEdge ABL**|98.78892|3965→692|144→53|25→10|1→🚫|🚫→🚫|
+|**GCC Machine Description**|98.66769|2065→24|39→4|9→2|1→🚫|🚫→🚫|
+
