@@ -34,7 +34,7 @@ const retrieveGroup = async (group) => {
       await Promise.all(group.map(language => retrieve(language))),
     );
   } catch (error) {
-    console.error(error);
+    console.error(error.response.error);
     await bluebird.delay(20000);
     return retrieveGroup(group);
   }
