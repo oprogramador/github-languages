@@ -6,6 +6,9 @@ const commander = require('commander');
 const packageInfo = require('./package');
 const languages = require('./languages');
 
+const LIMIT = 80;
+const BOLD_LIMIT = 40;
+
 commander
   .version(packageInfo.version)
   .option('-f, --files [type]', 'File names to get language statistics, separated with a coma (,)')
@@ -33,15 +36,15 @@ const getCoefficient = language => ({
   pairs: groups.map(
     ({ allData, newData }) => ({ allRank: allData[language] || '🚫', newRank: newData[language] || '🚫' }),
   ),
-  isAnywhereOnTop: _.flatten(groups.map(Object.values)).some(data => data[language] <= 20),
+  isAnywhereOnTop: _.flatten(groups.map(Object.values)).some(data => data[language] <= BOLD_LIMIT),
 });
 
 const bold = word => `**${word}**`;
 
 const results = languages.map(getCoefficient);
 const sortedResults = _.sortBy(results, ({ value }) => value);
-const mostGrowing = sortedResults.slice(0, 40);
-const mostFailing = sortedResults.slice(-40).reverse();
+const mostGrowing = sortedResults.slice(0, LIMIT);
+const mostFailing = sortedResults.slice(-LIMIT).reverse();
 const repoLabels = ['all repos', '10+ stars', '100+ stars', '1000+ stars', '10000+ stars'];
 
 const resultsToMarkdown = data => jsonToMarkdown(

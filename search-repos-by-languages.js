@@ -11,8 +11,8 @@ const packageInfo = require('./package');
 
 const token = process.env.GITHUB_TOKEN;
 
-const reposPerLanguageNumber = 5;
-const languagesTopNumber = 20;
+const reposPerLanguageNumber = 10;
+const languagesTopNumber = 40;
 
 commander
   .version(packageInfo.version)
