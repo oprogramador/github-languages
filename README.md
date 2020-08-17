@@ -12,8 +12,8 @@
 1. [Most popular languages on GitHub as of August 17, 2020, counting only repos with at least 1000 stars and any commits pushed since August 18, 2019](#1000-stars-active)
 1. [Most popular languages on GitHub as of August 17, 2020, counting only repos with at least 10000 stars and any commits pushed since August 18, 2019](#10000-stars-active)
 1. [Most starred GitHub repositories by language as of August 17, 2020](#top-repos-by-language)
-1. [Most growing languages in the last 12 months](#most-growing)
-1. [Most failing languages in the last 12 months](#most-failing)
+1. [Most growing languages in the last 12 months (considering the amount of all repos and the amount of repos updated recently for a given number of stars)](#most-growing)
+1. [Most failing languages in the last 12 months (considering the amount of all repos and the amount of repos updated recently for a given number of stars)](#most-failing)
 ## Most popular languages on GitHub as of August 17, 2020
 <a name="all" />
 
@@ -1026,7 +1026,7 @@
 
 
 
-## Most growing languages within last 12 months
+## Most growing languages within last 12 months (considering the amount of all repos and the amount of repos updated recently for a given number of stars)
 <a name="most-growing" />
 
 
@@ -1115,7 +1115,7 @@
 
 
 
-## Most failing languages within last 12 months
+## Most failing languages within last 12 months (considering the amount of all repos and the amount of repos updated recently for a given number of stars)
 <a name="most-failing" />
 
 
