@@ -29,8 +29,8 @@ cat<<EOF > README.md
 1. [Most popular languages on GitHub as of $today, counting only repos with at least 1000 stars and any commits pushed since $minusOneYearFormatted](#1000-stars-active)
 1. [Most popular languages on GitHub as of $today, counting only repos with at least 10000 stars and any commits pushed since $minusOneYearFormatted](#10000-stars-active)
 1. [Most starred GitHub repositories by language as of $today](#top-repos-by-language)
-1. [Most growing languages in the last 12 months](#most-growing)
-1. [Most failing languages in the last 12 months](#most-failing)
+1. [Most growing languages (comparing the number of repos with new commits to the total number of repos)](#most-growing)
+1. [Most failing languages (comparing the number of repos with new commits to the total number of repos)](#most-failing)
 EOF
 
 
