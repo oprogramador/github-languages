@@ -1049,7 +1049,7 @@
 
 
 
-## Most growing languages within last 12 months
+## Most growing languages (comparing the number of repos with new commits to the total number of repos)
 <a name="most-growing" />
 
 
@@ -1138,7 +1138,7 @@
 
 
 
-## Most failing languages within last 12 months
+## Most failing languages (comparing the number of repos with new commits to the total number of repos)
 <a name="most-failing" />
 
 

@@ -58,9 +58,9 @@ const resultsToMarkdown = data => jsonToMarkdown(
   ['language', 'coefficient', ...repoLabels],
 );
 
-console.log('\n\n## Most growing languages within last 12 months');
+console.log('\n\n## Most growing languages (comparing the number of repos with new commits to the total number of repos)');
 console.log('<a name="most-growing" />\n\n');
 console.log(resultsToMarkdown(mostGrowing));
-console.log('\n\n## Most failing languages within last 12 months');
+console.log('\n\n## Most failing languages (comparing the number of repos with new commits to the total number of repos)');
 console.log('<a name="most-failing" />\n\n');
 console.log(resultsToMarkdown(mostFailing));
